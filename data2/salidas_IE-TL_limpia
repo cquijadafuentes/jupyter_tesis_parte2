@@ -10,8 +10,8 @@ ocupacion	0.0685	0.2300	0.0199
 carga	0.0364	0.1176	0.0852
 vmed	0.3534	0.0235	0.1146
 
-	vecinos_PM12x12	vecinos_PMrandom					
-intensidad	0.1748	-0.0581					
-ocupacion	0.1886	-0.0144					
-carga	0.2955	0.0073					
-vmed	0.2121	0.0524		
+	vecinos_PM12x12	vecinos_PMrandom	vecinos_PMTTLL
+intensidad	0.1748	-0.0581	0.4561
+ocupacion	0.1886	-0.0144	0.3531
+carga	0.2955	0.0073	0.3094
+vmed	0.2121	0.0524	0.2460
