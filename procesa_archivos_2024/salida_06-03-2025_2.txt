@@ -1,0 +1,1882 @@
+Fecha INICIO: 2025/03/06 17:59:47
+=======================================================================
+./TSSM_build_full_v2 m30_2024_data.txt m30_2024_ids_estructura.txt 1 5 borrar.txt
+Iniciando TSSM_build.cpp
+Total Ids en grupos: 241
+Cantidad de sensores: 241
+Cantidad de muestras: 35117
+Verificando datos...
+Construyendo ...
+Pos iniciales de refs de cada grupo: 
+0	6	11	18	22	
+Verificando datos...
+Construyendo ...
+posSeries: 0/104
+posSeries: 28/104
+posSeries: 51/104
+posSeries: 86/104
+posSeries: 104 - sensoresIguales: 104
+Verificando datos...
+Construyendo ...
+posSeries: 0/241
+posSeries: 28/241
+posSeries: 51/241
+posSeries: 86/241
+posSeries: 104/241
+posSeries: 241 - sensoresIguales: 241
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	73 [Bytes]
+lgFirst:	169 [Bytes]
+Referencias:	1260290 [Bytes]
+pgseries:	4864738 [Bytes]
+lgSeries:	7244377 [Bytes]
+	Estructura:	13056 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	169 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	6120464 [Bytes]
+lgSeries:	7244377 [Bytes]
+	Est.Cod.Sec.:	13051 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	13830585 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	13506 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	12315 [Kbytes].
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	410	650	482 [Bytes]
+lgFirstValue: 	762	1194	898 [Bytes]
+pgReference: 	4287316	6812436	5042972 [Bytes]
+pgSeries: 	16164692	25689164	19008900 [Bytes]
+lgSeries: 	26647378	42485714	31440426 [Bytes]
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	73	81	73 [Bytes]
+lgFirstValue: 	225	249	209 [Bytes]
+pgReference: 	1281386	1446978	1157378 [Bytes]
+pgSeries: 	5723434	6925386	5421858 [Bytes]
+lgSeries: 	7255073	8047969	6511393 [Bytes]
+------------------------------------
+Verificando datos...
+Construyendo ...
+iaux: 241 - num_sensores: 241
+Enteros:	44 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	263445 [Bytes]
+pgseries:	13365497 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	13309 [Kbytes].
+------------------------------------
+enc_vector Est. Prom.
+pgFirstValue: 	26	26	26 [Bytes]
+lgFirstValue: 	26	26	26 [Bytes]
+pgReference: 	1003890	1610578	1191418 [Bytes]
+pgSeries: 	47323690	75318194	55736386 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+vlc_vector Est. Prom.
+pgFirstValue: 	25	25	25 [Bytes]
+lgFirstValue: 	25	25	25 [Bytes]
+pgReference: 	366685	447349	348557 [Bytes]
+pgSeries: 	16759065	20081017	15747385 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+=======================================================================
+./TSSM_build_full_v2 m30_2024_data.txt m30_2024_ids_estructura.txt 1 10 borrar.txt
+Iniciando TSSM_build.cpp
+Total Ids en grupos: 241
+Cantidad de sensores: 241
+Cantidad de muestras: 35117
+Verificando datos...
+Construyendo ...
+Pos iniciales de refs de cada grupo: 
+0	3	6	10	12	
+Verificando datos...
+Construyendo ...
+posSeries: 0/104
+posSeries: 28/104
+posSeries: 51/104
+posSeries: 86/104
+posSeries: 104 - sensoresIguales: 104
+Verificando datos...
+Construyendo ...
+posSeries: 0/241
+posSeries: 28/241
+posSeries: 51/241
+posSeries: 86/241
+posSeries: 104/241
+posSeries: 241 - sensoresIguales: 241
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	41 [Bytes]
+lgFirst:	169 [Bytes]
+Referencias:	680642 [Bytes]
+pgseries:	5479404 [Bytes]
+lgSeries:	7244377 [Bytes]
+	Estructura:	13090 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	169 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	6120464 [Bytes]
+lgSeries:	7244377 [Bytes]
+	Est.Cod.Sec.:	13051 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	13830585 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	13506 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	12315 [Kbytes].
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	234	370	274 [Bytes]
+lgFirstValue: 	762	1194	898 [Bytes]
+pgReference: 	2338532	3717764	2751956 [Bytes]
+pgSeries: 	18145424	28817928	21324632 [Bytes]
+lgSeries: 	26647378	42485714	31440426 [Bytes]
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	57	57	57 [Bytes]
+lgFirstValue: 	225	249	209 [Bytes]
+pgReference: 	691202	778834	623706 [Bytes]
+pgSeries: 	6537340	7963476	6222412 [Bytes]
+lgSeries: 	7255073	8047969	6511393 [Bytes]
+------------------------------------
+Verificando datos...
+Construyendo ...
+iaux: 241 - num_sensores: 241
+Enteros:	44 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	263445 [Bytes]
+pgseries:	13365497 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	13309 [Kbytes].
+------------------------------------
+enc_vector Est. Prom.
+pgFirstValue: 	26	26	26 [Bytes]
+lgFirstValue: 	26	26	26 [Bytes]
+pgReference: 	1003890	1610578	1191418 [Bytes]
+pgSeries: 	47323690	75318194	55736386 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+vlc_vector Est. Prom.
+pgFirstValue: 	25	25	25 [Bytes]
+lgFirstValue: 	25	25	25 [Bytes]
+pgReference: 	366685	447349	348557 [Bytes]
+pgSeries: 	16759065	20081017	15747385 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+=======================================================================
+./TSSM_build_full_v2 m30_2024_data.txt m30_2024_ids_estructura.txt 1 20 borrar.txt
+Iniciando TSSM_build.cpp
+Total Ids en grupos: 241
+Cantidad de sensores: 241
+Cantidad de muestras: 35117
+Verificando datos...
+Construyendo ...
+Pos iniciales de refs de cada grupo: 
+0	2	4	6	7	
+Verificando datos...
+Construyendo ...
+posSeries: 0/104
+posSeries: 28/104
+posSeries: 51/104
+posSeries: 86/104
+posSeries: 104 - sensoresIguales: 104
+Verificando datos...
+Construyendo ...
+posSeries: 0/241
+posSeries: 28/241
+posSeries: 51/241
+posSeries: 86/241
+posSeries: 104/241
+posSeries: 241 - sensoresIguales: 241
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	169 [Bytes]
+Referencias:	386422 [Bytes]
+pgseries:	5707777 [Bytes]
+lgSeries:	7244377 [Bytes]
+	Estructura:	13026 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	169 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	6120464 [Bytes]
+lgSeries:	7244377 [Bytes]
+	Est.Cod.Sec.:	13051 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	13830585 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	13506 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	12315 [Kbytes].
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	146	218	170 [Bytes]
+lgFirstValue: 	762	1194	898 [Bytes]
+pgReference: 	1355172	2155476	1595876 [Bytes]
+pgSeries: 	19088970	30318426	22436226 [Bytes]
+lgSeries: 	26647378	42485714	31440426 [Bytes]
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	49	49	49 [Bytes]
+lgFirstValue: 	225	249	209 [Bytes]
+pgReference: 	391534	438422	352278 [Bytes]
+pgSeries: 	6723937	8103545	6349633 [Bytes]
+lgSeries: 	7255073	8047969	6511393 [Bytes]
+------------------------------------
+Verificando datos...
+Construyendo ...
+iaux: 241 - num_sensores: 241
+Enteros:	44 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	263445 [Bytes]
+pgseries:	13365497 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	13309 [Kbytes].
+------------------------------------
+enc_vector Est. Prom.
+pgFirstValue: 	26	26	26 [Bytes]
+lgFirstValue: 	26	26	26 [Bytes]
+pgReference: 	1003890	1610578	1191418 [Bytes]
+pgSeries: 	47323690	75318194	55736386 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+vlc_vector Est. Prom.
+pgFirstValue: 	25	25	25 [Bytes]
+lgFirstValue: 	25	25	25 [Bytes]
+pgReference: 	366685	447349	348557 [Bytes]
+pgSeries: 	16759065	20081017	15747385 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+=======================================================================
+./TSSM_build_full_v2 m30_2024_data.txt m30_2024_ids_estructura.txt 1 30 borrar.txt
+Iniciando TSSM_build.cpp
+Total Ids en grupos: 241
+Cantidad de sensores: 241
+Cantidad de muestras: 35117
+Verificando datos...
+Construyendo ...
+Pos iniciales de refs de cada grupo: 
+0	1	2	4	5	
+Verificando datos...
+Construyendo ...
+posSeries: 0/104
+posSeries: 28/104
+posSeries: 51/104
+posSeries: 86/104
+posSeries: 104 - sensoresIguales: 104
+Verificando datos...
+Construyendo ...
+posSeries: 0/241
+posSeries: 28/241
+posSeries: 51/241
+posSeries: 86/241
+posSeries: 104/241
+posSeries: 241 - sensoresIguales: 241
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	169 [Bytes]
+Referencias:	272258 [Bytes]
+pgseries:	5878915 [Bytes]
+lgSeries:	7244377 [Bytes]
+	Estructura:	13081 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	169 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	6120464 [Bytes]
+lgSeries:	7244377 [Bytes]
+	Est.Cod.Sec.:	13051 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	13830585 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	13506 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	12315 [Kbytes].
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	114	170	130 [Bytes]
+lgFirstValue: 	762	1194	898 [Bytes]
+pgReference: 	969820	1541828	1141516 [Bytes]
+pgSeries: 	19512742	30982750	22927222 [Bytes]
+lgSeries: 	26647378	42485714	31440426 [Bytes]
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	41	49	41 [Bytes]
+lgFirstValue: 	225	249	209 [Bytes]
+pgReference: 	284122	318970	255858 [Bytes]
+pgSeries: 	7025403	8533579	6670315 [Bytes]
+lgSeries: 	7255073	8047969	6511393 [Bytes]
+------------------------------------
+Verificando datos...
+Construyendo ...
+iaux: 241 - num_sensores: 241
+Enteros:	44 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	263445 [Bytes]
+pgseries:	13365497 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	13309 [Kbytes].
+------------------------------------
+enc_vector Est. Prom.
+pgFirstValue: 	26	26	26 [Bytes]
+lgFirstValue: 	26	26	26 [Bytes]
+pgReference: 	1003890	1610578	1191418 [Bytes]
+pgSeries: 	47323690	75318194	55736386 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+vlc_vector Est. Prom.
+pgFirstValue: 	25	25	25 [Bytes]
+lgFirstValue: 	25	25	25 [Bytes]
+pgReference: 	366685	447349	348557 [Bytes]
+pgSeries: 	16759065	20081017	15747385 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+=======================================================================
+./TSSM_build_full_v2 m30_2024_data.txt m30_2024_ids_estructura.txt 1 40 borrar.txt
+Iniciando TSSM_build.cpp
+Total Ids en grupos: 241
+Cantidad de sensores: 241
+Cantidad de muestras: 35117
+Verificando datos...
+Construyendo ...
+Pos iniciales de refs de cada grupo: 
+0	1	2	3	4	
+Verificando datos...
+Construyendo ...
+posSeries: 0/104
+posSeries: 28/104
+posSeries: 51/104
+posSeries: 86/104
+posSeries: 104 - sensoresIguales: 104
+Verificando datos...
+Construyendo ...
+posSeries: 0/241
+posSeries: 28/241
+posSeries: 51/241
+posSeries: 86/241
+posSeries: 104/241
+posSeries: 241 - sensoresIguales: 241
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	17 [Bytes]
+lgFirst:	169 [Bytes]
+Referencias:	219560 [Bytes]
+pgseries:	5940380 [Bytes]
+lgSeries:	7244377 [Bytes]
+	Estructura:	13090 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	169 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	6120464 [Bytes]
+lgSeries:	7244377 [Bytes]
+	Est.Cod.Sec.:	13051 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	13830585 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	13506 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	12315 [Kbytes].
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	98	138	106 [Bytes]
+lgFirstValue: 	762	1194	898 [Bytes]
+pgReference: 	776384	1234328	913824 [Bytes]
+pgSeries: 	19721144	31312848	23171264 [Bytes]
+lgSeries: 	26647378	42485714	31440426 [Bytes]
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	41	41	41 [Bytes]
+lgFirstValue: 	225	249	209 [Bytes]
+pgReference: 	227968	256296	205480 [Bytes]
+pgSeries: 	7124012	8664740	6770468 [Bytes]
+lgSeries: 	7255073	8047969	6511393 [Bytes]
+------------------------------------
+Verificando datos...
+Construyendo ...
+iaux: 241 - num_sensores: 241
+Enteros:	44 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	263445 [Bytes]
+pgseries:	13365497 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	13309 [Kbytes].
+------------------------------------
+enc_vector Est. Prom.
+pgFirstValue: 	26	26	26 [Bytes]
+lgFirstValue: 	26	26	26 [Bytes]
+pgReference: 	1003890	1610578	1191418 [Bytes]
+pgSeries: 	47323690	75318194	55736386 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+vlc_vector Est. Prom.
+pgFirstValue: 	25	25	25 [Bytes]
+lgFirstValue: 	25	25	25 [Bytes]
+pgReference: 	366685	447349	348557 [Bytes]
+pgSeries: 	16759065	20081017	15747385 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+=======================================================================
+./TSSM_build_full_v2 m30_2024_data.txt m30_2024_ids_estructura.txt 2 5 borrar.txt
+Iniciando TSSM_build.cpp
+Total Ids en grupos: 241
+Cantidad de sensores: 241
+Cantidad de muestras: 35117
+Verificando datos...
+Construyendo ...
+Pos iniciales de refs de cada grupo: 
+0	6	11	18	22	
+Verificando datos...
+Construyendo ...
+posSeries: 0/104
+posSeries: 28/104
+posSeries: 51/104
+posSeries: 86/104
+posSeries: 104 - sensoresIguales: 104
+Verificando datos...
+Construyendo ...
+posSeries: 0/241
+posSeries: 28/241
+posSeries: 51/241
+posSeries: 86/241
+posSeries: 104/241
+posSeries: 241 - sensoresIguales: 241
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	17 [Bytes]
+lgFirst:	113 [Bytes]
+Referencias:	672114 [Bytes]
+pgseries:	2726866 [Bytes]
+lgSeries:	4290137 [Bytes]
+	Estructura:	7509 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	113 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	3385552 [Bytes]
+lgSeries:	4290137 [Bytes]
+	Est.Cod.Sec.:	7495 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	7956673 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	7770 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	6724 [Kbytes].
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	490	794	586 [Bytes]
+lgFirstValue: 	1066	1754	1290 [Bytes]
+pgReference: 	4941548	8164732	5982412 [Bytes]
+pgSeries: 	18862284	31073836	22718884 [Bytes]
+lgSeries: 	30111090	49721850	36469218 [Bytes]
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	41	41	49 [Bytes]
+lgFirstValue: 	73	65	81 [Bytes]
+pgReference: 	316946	278178	325666 [Bytes]
+pgSeries: 	1708538	1573354	1593946 [Bytes]
+lgSeries: 	2022529	1776785	2055409 [Bytes]
+------------------------------------
+Verificando datos...
+Construyendo ...
+iaux: 241 - num_sensores: 241
+Enteros:	44 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	118589 [Bytes]
+pgseries:	7640593 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	7577 [Kbytes].
+------------------------------------
+enc_vector Est. Prom.
+pgFirstValue: 	26	26	26 [Bytes]
+lgFirstValue: 	26	26	26 [Bytes]
+pgReference: 	1325474	2207338	1606266 [Bytes]
+pgSeries: 	56964010	93989890	68631722 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+vlc_vector Est. Prom.
+pgFirstValue: 	25	25	25 [Bytes]
+lgFirstValue: 	25	25	25 [Bytes]
+pgReference: 	119717	108861	105061 [Bytes]
+pgSeries: 	5017657	4592217	4641681 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+=======================================================================
+./TSSM_build_full_v2 m30_2024_data.txt m30_2024_ids_estructura.txt 2 10 borrar.txt
+Iniciando TSSM_build.cpp
+Total Ids en grupos: 241
+Cantidad de sensores: 241
+Cantidad de muestras: 35117
+Verificando datos...
+Construyendo ...
+Pos iniciales de refs de cada grupo: 
+0	3	6	10	12	
+Verificando datos...
+Construyendo ...
+posSeries: 0/104
+posSeries: 28/104
+posSeries: 51/104
+posSeries: 86/104
+posSeries: 104 - sensoresIguales: 104
+Verificando datos...
+Construyendo ...
+posSeries: 0/241
+posSeries: 28/241
+posSeries: 51/241
+posSeries: 86/241
+posSeries: 104/241
+posSeries: 241 - sensoresIguales: 241
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	17 [Bytes]
+lgFirst:	113 [Bytes]
+Referencias:	368978 [Bytes]
+pgseries:	3073756 [Bytes]
+lgSeries:	4290137 [Bytes]
+	Estructura:	7551 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	113 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	3385552 [Bytes]
+lgSeries:	4290137 [Bytes]
+	Est.Cod.Sec.:	7495 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	7956673 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	7770 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	6724 [Kbytes].
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	258	410	306 [Bytes]
+lgFirstValue: 	1066	1754	1290 [Bytes]
+pgReference: 	2704852	4469460	3274252 [Bytes]
+pgSeries: 	20973488	34526096	25251016 [Bytes]
+lgSeries: 	30111090	49721850	36469218 [Bytes]
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	41	41	41 [Bytes]
+lgFirstValue: 	73	65	81 [Bytes]
+pgReference: 	172690	151634	177658 [Bytes]
+pgSeries: 	2053284	1903892	1882396 [Bytes]
+lgSeries: 	2022529	1776785	2055409 [Bytes]
+------------------------------------
+Verificando datos...
+Construyendo ...
+iaux: 241 - num_sensores: 241
+Enteros:	44 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	118589 [Bytes]
+pgseries:	7640593 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	7577 [Kbytes].
+------------------------------------
+enc_vector Est. Prom.
+pgFirstValue: 	26	26	26 [Bytes]
+lgFirstValue: 	26	26	26 [Bytes]
+pgReference: 	1325474	2207338	1606266 [Bytes]
+pgSeries: 	56964010	93989890	68631722 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+vlc_vector Est. Prom.
+pgFirstValue: 	25	25	25 [Bytes]
+lgFirstValue: 	25	25	25 [Bytes]
+pgReference: 	119717	108861	105061 [Bytes]
+pgSeries: 	5017657	4592217	4641681 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+=======================================================================
+./TSSM_build_full_v2 m30_2024_data.txt m30_2024_ids_estructura.txt 2 20 borrar.txt
+Iniciando TSSM_build.cpp
+Total Ids en grupos: 241
+Cantidad de sensores: 241
+Cantidad de muestras: 35117
+Verificando datos...
+Construyendo ...
+Pos iniciales de refs de cada grupo: 
+0	2	4	6	7	
+Verificando datos...
+Construyendo ...
+posSeries: 0/104
+posSeries: 28/104
+posSeries: 51/104
+posSeries: 86/104
+posSeries: 104 - sensoresIguales: 104
+Verificando datos...
+Construyendo ...
+posSeries: 0/241
+posSeries: 28/241
+posSeries: 51/241
+posSeries: 86/241
+posSeries: 104/241
+posSeries: 241 - sensoresIguales: 241
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	17 [Bytes]
+lgFirst:	113 [Bytes]
+Referencias:	215230 [Bytes]
+pgseries:	3231833 [Bytes]
+lgSeries:	4290137 [Bytes]
+	Estructura:	7556 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	113 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	3385552 [Bytes]
+lgSeries:	4290137 [Bytes]
+	Est.Cod.Sec.:	7495 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	7956673 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	7770 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	6724 [Kbytes].
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	162	250	186 [Bytes]
+lgFirstValue: 	1066	1754	1290 [Bytes]
+pgReference: 	1626236	2691404	1969068 [Bytes]
+pgSeries: 	22308418	36736698	26854850 [Bytes]
+lgSeries: 	30111090	49721850	36469218 [Bytes]
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	41	41	41 [Bytes]
+lgFirstValue: 	73	65	81 [Bytes]
+pgReference: 	93198	81446	98726 [Bytes]
+pgSeries: 	2129145	1976393	1985241 [Bytes]
+lgSeries: 	2022529	1776785	2055409 [Bytes]
+------------------------------------
+Verificando datos...
+Construyendo ...
+iaux: 241 - num_sensores: 241
+Enteros:	44 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	118589 [Bytes]
+pgseries:	7640593 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	7577 [Kbytes].
+------------------------------------
+enc_vector Est. Prom.
+pgFirstValue: 	26	26	26 [Bytes]
+lgFirstValue: 	26	26	26 [Bytes]
+pgReference: 	1325474	2207338	1606266 [Bytes]
+pgSeries: 	56964010	93989890	68631722 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+vlc_vector Est. Prom.
+pgFirstValue: 	25	25	25 [Bytes]
+lgFirstValue: 	25	25	25 [Bytes]
+pgReference: 	119717	108861	105061 [Bytes]
+pgSeries: 	5017657	4592217	4641681 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+=======================================================================
+./TSSM_build_full_v2 m30_2024_data.txt m30_2024_ids_estructura.txt 2 30 borrar.txt
+Iniciando TSSM_build.cpp
+Total Ids en grupos: 241
+Cantidad de sensores: 241
+Cantidad de muestras: 35117
+Verificando datos...
+Construyendo ...
+Pos iniciales de refs de cada grupo: 
+0	1	2	4	5	
+Verificando datos...
+Construyendo ...
+posSeries: 0/104
+posSeries: 28/104
+posSeries: 51/104
+posSeries: 86/104
+posSeries: 104 - sensoresIguales: 104
+Verificando datos...
+Construyendo ...
+posSeries: 0/241
+posSeries: 28/241
+posSeries: 51/241
+posSeries: 86/241
+posSeries: 104/241
+posSeries: 241 - sensoresIguales: 241
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	17 [Bytes]
+lgFirst:	113 [Bytes]
+Referencias:	153738 [Bytes]
+pgseries:	3324059 [Bytes]
+lgSeries:	4290137 [Bytes]
+	Estructura:	7586 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	113 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	3385552 [Bytes]
+lgSeries:	4290137 [Bytes]
+	Est.Cod.Sec.:	7495 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	7956673 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	7770 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	6724 [Kbytes].
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	122	186	146 [Bytes]
+lgFirstValue: 	1066	1754	1290 [Bytes]
+pgReference: 	1152004	1905700	1394692 [Bytes]
+pgSeries: 	22607822	37217070	27212878 [Bytes]
+lgSeries: 	30111090	49721850	36469218 [Bytes]
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	41	41	41 [Bytes]
+lgFirstValue: 	73	65	81 [Bytes]
+pgReference: 	68050	59498	71434 [Bytes]
+pgSeries: 	2240459	2082499	2062939 [Bytes]
+lgSeries: 	2022529	1776785	2055409 [Bytes]
+------------------------------------
+Verificando datos...
+Construyendo ...
+iaux: 241 - num_sensores: 241
+Enteros:	44 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	118589 [Bytes]
+pgseries:	7640593 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	7577 [Kbytes].
+------------------------------------
+enc_vector Est. Prom.
+pgFirstValue: 	26	26	26 [Bytes]
+lgFirstValue: 	26	26	26 [Bytes]
+pgReference: 	1325474	2207338	1606266 [Bytes]
+pgSeries: 	56964010	93989890	68631722 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+vlc_vector Est. Prom.
+pgFirstValue: 	25	25	25 [Bytes]
+lgFirstValue: 	25	25	25 [Bytes]
+pgReference: 	119717	108861	105061 [Bytes]
+pgSeries: 	5017657	4592217	4641681 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+=======================================================================
+./TSSM_build_full_v2 m30_2024_data.txt m30_2024_ids_estructura.txt 2 40 borrar.txt
+Iniciando TSSM_build.cpp
+Total Ids en grupos: 241
+Cantidad de sensores: 241
+Cantidad de muestras: 35117
+Verificando datos...
+Construyendo ...
+Pos iniciales de refs de cada grupo: 
+0	1	2	3	4	
+Verificando datos...
+Construyendo ...
+posSeries: 0/104
+posSeries: 28/104
+posSeries: 51/104
+posSeries: 86/104
+posSeries: 104 - sensoresIguales: 104
+Verificando datos...
+Construyendo ...
+posSeries: 0/241
+posSeries: 28/241
+posSeries: 51/241
+posSeries: 86/241
+posSeries: 104/241
+posSeries: 241 - sensoresIguales: 241
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	17 [Bytes]
+lgFirst:	113 [Bytes]
+Referencias:	122992 [Bytes]
+pgseries:	3354796 [Bytes]
+lgSeries:	4290137 [Bytes]
+	Estructura:	7586 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	113 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	3385552 [Bytes]
+lgSeries:	4290137 [Bytes]
+	Est.Cod.Sec.:	7495 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	7956673 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	7770 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	6724 [Kbytes].
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	106	154	122 [Bytes]
+lgFirstValue: 	1066	1754	1290 [Bytes]
+pgReference: 	924056	1528640	1118560 [Bytes]
+pgSeries: 	22852840	37622616	27508520 [Bytes]
+lgSeries: 	30111090	49721850	36469218 [Bytes]
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	41	41	41 [Bytes]
+lgFirstValue: 	73	65	81 [Bytes]
+pgReference: 	54528	47720	57240 [Bytes]
+pgSeries: 	2257044	2097284	2079796 [Bytes]
+lgSeries: 	2022529	1776785	2055409 [Bytes]
+------------------------------------
+Verificando datos...
+Construyendo ...
+iaux: 241 - num_sensores: 241
+Enteros:	44 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	118589 [Bytes]
+pgseries:	7640593 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	7577 [Kbytes].
+------------------------------------
+enc_vector Est. Prom.
+pgFirstValue: 	26	26	26 [Bytes]
+lgFirstValue: 	26	26	26 [Bytes]
+pgReference: 	1325474	2207338	1606266 [Bytes]
+pgSeries: 	56964010	93989890	68631722 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+vlc_vector Est. Prom.
+pgFirstValue: 	25	25	25 [Bytes]
+lgFirstValue: 	25	25	25 [Bytes]
+pgReference: 	119717	108861	105061 [Bytes]
+pgSeries: 	5017657	4592217	4641681 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+=======================================================================
+./TSSM_build_full_v2 m30_2024_data.txt m30_2024_ids_estructura.txt 3 5 borrar.txt
+Iniciando TSSM_build.cpp
+Total Ids en grupos: 241
+Cantidad de sensores: 241
+Cantidad de muestras: 35117
+Verificando datos...
+Construyendo ...
+Pos iniciales de refs de cada grupo: 
+0	6	11	18	22	
+Verificando datos...
+Construyendo ...
+posSeries: 0/104
+posSeries: 28/104
+posSeries: 51/104
+posSeries: 86/104
+posSeries: 104 - sensoresIguales: 104
+Verificando datos...
+Construyendo ...
+posSeries: 0/241
+posSeries: 28/241
+posSeries: 51/241
+posSeries: 86/241
+posSeries: 104/241
+posSeries: 241 - sensoresIguales: 241
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	41 [Bytes]
+lgFirst:	113 [Bytes]
+Referencias:	733570 [Bytes]
+pgseries:	2836658 [Bytes]
+lgSeries:	4553561 [Bytes]
+	Estructura:	7933 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	113 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	3587544 [Bytes]
+lgSeries:	4553561 [Bytes]
+	Est.Cod.Sec.:	7950 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	8299201 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	8104 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	7200 [Kbytes].
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	394	634	474 [Bytes]
+lgFirstValue: 	818	1314	978 [Bytes]
+pgReference: 	4215204	6857116	5065668 [Bytes]
+pgSeries: 	16295380	26481740	19501956 [Bytes]
+lgSeries: 	26310178	42819298	31634114 [Bytes]
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	57	57	57 [Bytes]
+lgFirstValue: 	129	121	113 [Bytes]
+pgReference: 	549002	505394	482322 [Bytes]
+pgSeries: 	2788034	2813018	2468122 [Bytes]
+lgSeries: 	3403209	3136817	2996321 [Bytes]
+------------------------------------
+Verificando datos...
+Construyendo ...
+iaux: 241 - num_sensores: 241
+Enteros:	44 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	153685 [Bytes]
+pgseries:	7930265 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	7894 [Kbytes].
+------------------------------------
+enc_vector Est. Prom.
+pgFirstValue: 	26	26	26 [Bytes]
+lgFirstValue: 	26	26	26 [Bytes]
+pgReference: 	1073978	1769282	1300698 [Bytes]
+pgSeries: 	48418586	78763354	57960618 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+vlc_vector Est. Prom.
+pgFirstValue: 	25	25	25 [Bytes]
+lgFirstValue: 	25	25	25 [Bytes]
+pgReference: 	205869	221341	186141 [Bytes]
+pgSeries: 	8545721	8659945	7522289 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+=======================================================================
+./TSSM_build_full_v2 m30_2024_data.txt m30_2024_ids_estructura.txt 3 10 borrar.txt
+Iniciando TSSM_build.cpp
+Total Ids en grupos: 241
+Cantidad de sensores: 241
+Cantidad de muestras: 35117
+Verificando datos...
+Construyendo ...
+Pos iniciales de refs de cada grupo: 
+0	3	6	10	12	
+Verificando datos...
+Construyendo ...
+posSeries: 0/104
+posSeries: 28/104
+posSeries: 51/104
+posSeries: 86/104
+posSeries: 104 - sensoresIguales: 104
+Verificando datos...
+Construyendo ...
+posSeries: 0/241
+posSeries: 28/241
+posSeries: 51/241
+posSeries: 86/241
+posSeries: 104/241
+posSeries: 241 - sensoresIguales: 241
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	113 [Bytes]
+Referencias:	395330 [Bytes]
+pgseries:	3205516 [Bytes]
+lgSeries:	4553561 [Bytes]
+	Estructura:	7963 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	113 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	3587544 [Bytes]
+lgSeries:	4553561 [Bytes]
+	Est.Cod.Sec.:	7950 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	8299201 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	8104 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	7200 [Kbytes].
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	226	346	258 [Bytes]
+lgFirstValue: 	818	1314	978 [Bytes]
+pgReference: 	2300708	3743140	2765164 [Bytes]
+pgSeries: 	18129920	29412784	21670472 [Bytes]
+lgSeries: 	26310178	42819298	31634114 [Bytes]
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	49	49	49 [Bytes]
+lgFirstValue: 	129	121	113 [Bytes]
+pgReference: 	299034	275450	262994 [Bytes]
+pgSeries: 	3358508	3471148	2993300 [Bytes]
+lgSeries: 	3403209	3136817	2996321 [Bytes]
+------------------------------------
+Verificando datos...
+Construyendo ...
+iaux: 241 - num_sensores: 241
+Enteros:	44 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	153685 [Bytes]
+pgseries:	7930265 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	7894 [Kbytes].
+------------------------------------
+enc_vector Est. Prom.
+pgFirstValue: 	26	26	26 [Bytes]
+lgFirstValue: 	26	26	26 [Bytes]
+pgReference: 	1073978	1769282	1300698 [Bytes]
+pgSeries: 	48418586	78763354	57960618 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+vlc_vector Est. Prom.
+pgFirstValue: 	25	25	25 [Bytes]
+lgFirstValue: 	25	25	25 [Bytes]
+pgReference: 	205869	221341	186141 [Bytes]
+pgSeries: 	8545721	8659945	7522289 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+=======================================================================
+./TSSM_build_full_v2 m30_2024_data.txt m30_2024_ids_estructura.txt 3 20 borrar.txt
+Iniciando TSSM_build.cpp
+Total Ids en grupos: 241
+Cantidad de sensores: 241
+Cantidad de muestras: 35117
+Verificando datos...
+Construyendo ...
+Pos iniciales de refs de cada grupo: 
+0	2	4	6	7	
+Verificando datos...
+Construyendo ...
+posSeries: 0/104
+posSeries: 28/104
+posSeries: 51/104
+posSeries: 86/104
+posSeries: 104 - sensoresIguales: 104
+Verificando datos...
+Construyendo ...
+posSeries: 0/241
+posSeries: 28/241
+posSeries: 51/241
+posSeries: 86/241
+posSeries: 104/241
+posSeries: 241 - sensoresIguales: 241
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	17 [Bytes]
+lgFirst:	113 [Bytes]
+Referencias:	224014 [Bytes]
+pgseries:	3381161 [Bytes]
+lgSeries:	4553561 [Bytes]
+	Estructura:	7967 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	113 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	3587544 [Bytes]
+lgSeries:	4553561 [Bytes]
+	Est.Cod.Sec.:	7950 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	8299201 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	8104 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	7200 [Kbytes].
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	138	202	154 [Bytes]
+lgFirstValue: 	818	1314	978 [Bytes]
+pgReference: 	1343244	2186516	1615108 [Bytes]
+pgSeries: 	19091810	30969770	22819938 [Bytes]
+lgSeries: 	26310178	42819298	31634114 [Bytes]
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	41	41	41 [Bytes]
+lgFirstValue: 	129	121	113 [Bytes]
+pgReference: 	171942	158198	151646 [Bytes]
+pgSeries: 	3487553	3585073	3108625 [Bytes]
+lgSeries: 	3403209	3136817	2996321 [Bytes]
+------------------------------------
+Verificando datos...
+Construyendo ...
+iaux: 241 - num_sensores: 241
+Enteros:	44 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	153685 [Bytes]
+pgseries:	7930265 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	7894 [Kbytes].
+------------------------------------
+enc_vector Est. Prom.
+pgFirstValue: 	26	26	26 [Bytes]
+lgFirstValue: 	26	26	26 [Bytes]
+pgReference: 	1073978	1769282	1300698 [Bytes]
+pgSeries: 	48418586	78763354	57960618 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+vlc_vector Est. Prom.
+pgFirstValue: 	25	25	25 [Bytes]
+lgFirstValue: 	25	25	25 [Bytes]
+pgReference: 	205869	221341	186141 [Bytes]
+pgSeries: 	8545721	8659945	7522289 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+=======================================================================
+./TSSM_build_full_v2 m30_2024_data.txt m30_2024_ids_estructura.txt 3 30 borrar.txt
+Iniciando TSSM_build.cpp
+Total Ids en grupos: 241
+Cantidad de sensores: 241
+Cantidad de muestras: 35117
+Verificando datos...
+Construyendo ...
+Pos iniciales de refs de cada grupo: 
+0	1	2	4	5	
+Verificando datos...
+Construyendo ...
+posSeries: 0/104
+posSeries: 28/104
+posSeries: 51/104
+posSeries: 86/104
+posSeries: 104 - sensoresIguales: 104
+Verificando datos...
+Construyendo ...
+posSeries: 0/241
+posSeries: 28/241
+posSeries: 51/241
+posSeries: 86/241
+posSeries: 104/241
+posSeries: 241 - sensoresIguales: 241
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	17 [Bytes]
+lgFirst:	113 [Bytes]
+Referencias:	158130 [Bytes]
+pgseries:	3455811 [Bytes]
+lgSeries:	4553561 [Bytes]
+	Estructura:	7976 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	113 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	3587544 [Bytes]
+lgSeries:	4553561 [Bytes]
+	Est.Cod.Sec.:	7950 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	8299201 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	8104 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	7200 [Kbytes].
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	114	170	130 [Bytes]
+lgFirstValue: 	818	1314	978 [Bytes]
+pgReference: 	961196	1565812	1156380 [Bytes]
+pgSeries: 	19474878	31581454	23271550 [Bytes]
+lgSeries: 	26310178	42819298	31634114 [Bytes]
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	41	41	41 [Bytes]
+lgFirstValue: 	129	121	113 [Bytes]
+pgReference: 	119330	109250	105642 [Bytes]
+pgSeries: 	3648611	3779819	3261243 [Bytes]
+lgSeries: 	3403209	3136817	2996321 [Bytes]
+------------------------------------
+Verificando datos...
+Construyendo ...
+iaux: 241 - num_sensores: 241
+Enteros:	44 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	153685 [Bytes]
+pgseries:	7930265 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	7894 [Kbytes].
+------------------------------------
+enc_vector Est. Prom.
+pgFirstValue: 	26	26	26 [Bytes]
+lgFirstValue: 	26	26	26 [Bytes]
+pgReference: 	1073978	1769282	1300698 [Bytes]
+pgSeries: 	48418586	78763354	57960618 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+vlc_vector Est. Prom.
+pgFirstValue: 	25	25	25 [Bytes]
+lgFirstValue: 	25	25	25 [Bytes]
+pgReference: 	205869	221341	186141 [Bytes]
+pgSeries: 	8545721	8659945	7522289 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+=======================================================================
+./TSSM_build_full_v2 m30_2024_data.txt m30_2024_ids_estructura.txt 3 40 borrar.txt
+Iniciando TSSM_build.cpp
+Total Ids en grupos: 241
+Cantidad de sensores: 241
+Cantidad de muestras: 35117
+Verificando datos...
+Construyendo ...
+Pos iniciales de refs de cada grupo: 
+0	1	2	3	4	
+Verificando datos...
+Construyendo ...
+posSeries: 0/104
+posSeries: 28/104
+posSeries: 51/104
+posSeries: 86/104
+posSeries: 104 - sensoresIguales: 104
+Verificando datos...
+Construyendo ...
+posSeries: 0/241
+posSeries: 28/241
+posSeries: 51/241
+posSeries: 86/241
+posSeries: 104/241
+posSeries: 241 - sensoresIguales: 241
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	17 [Bytes]
+lgFirst:	113 [Bytes]
+Referencias:	127384 [Bytes]
+pgseries:	3495332 [Bytes]
+lgSeries:	4553561 [Bytes]
+	Estructura:	7984 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	113 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	3587544 [Bytes]
+lgSeries:	4553561 [Bytes]
+	Est.Cod.Sec.:	7950 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	8299201 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	8104 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	7200 [Kbytes].
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	98	138	106 [Bytes]
+lgFirstValue: 	818	1314	978 [Bytes]
+pgReference: 	768216	1250824	923784 [Bytes]
+pgSeries: 	19663760	31886416	23497000 [Bytes]
+lgSeries: 	26310178	42819298	31634114 [Bytes]
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	41	41	41 [Bytes]
+lgFirstValue: 	129	121	113 [Bytes]
+pgReference: 	96968	88944	85600 [Bytes]
+pgSeries: 	3684236	3814684	3290476 [Bytes]
+lgSeries: 	3403209	3136817	2996321 [Bytes]
+------------------------------------
+Verificando datos...
+Construyendo ...
+iaux: 241 - num_sensores: 241
+Enteros:	44 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	153685 [Bytes]
+pgseries:	7930265 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	7894 [Kbytes].
+------------------------------------
+enc_vector Est. Prom.
+pgFirstValue: 	26	26	26 [Bytes]
+lgFirstValue: 	26	26	26 [Bytes]
+pgReference: 	1073978	1769282	1300698 [Bytes]
+pgSeries: 	48418586	78763354	57960618 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+vlc_vector Est. Prom.
+pgFirstValue: 	25	25	25 [Bytes]
+lgFirstValue: 	25	25	25 [Bytes]
+pgReference: 	205869	221341	186141 [Bytes]
+pgSeries: 	8545721	8659945	7522289 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+=======================================================================
+./TSSM_build_full_v2 m30_2024_data.txt m30_2024_ids_estructura.txt 4 5 borrar.txt
+Iniciando TSSM_build.cpp
+Total Ids en grupos: 241
+Cantidad de sensores: 241
+Cantidad de muestras: 35117
+Verificando datos...
+Construyendo ...
+Pos iniciales de refs de cada grupo: 
+0	6	11	18	22	
+Verificando datos...
+Construyendo ...
+posSeries: 0/104
+posSeries: 28/104
+posSeries: 51/104
+posSeries: 86/104
+posSeries: 104 - sensoresIguales: 104
+Verificando datos...
+Construyendo ...
+posSeries: 0/241
+posSeries: 28/241
+posSeries: 51/241
+posSeries: 86/241
+posSeries: 104/241
+posSeries: 241 - sensoresIguales: 241
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	57 [Bytes]
+lgFirst:	129 [Bytes]
+Referencias:	759914 [Bytes]
+pgseries:	2871794 [Bytes]
+lgSeries:	4632609 [Bytes]
+	Estructura:	8070 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	129 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	3644632 [Bytes]
+lgSeries:	4632609 [Bytes]
+	Est.Cod.Sec.:	8083 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	8426569 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	8229 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	7200 [Kbytes].
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	434	690	514 [Bytes]
+lgFirstValue: 	762	1202	898 [Bytes]
+pgReference: 	4240140	6923252	5113820 [Bytes]
+pgSeries: 	16334228	26554668	19549340 [Bytes]
+lgSeries: 	26334714	42928466	31717402 [Bytes]
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	73	73	73 [Bytes]
+lgFirstValue: 	209	225	193 [Bytes]
+pgReference: 	496690	461530	452274 [Bytes]
+pgSeries: 	2788474	2774106	2439234 [Bytes]
+lgSeries: 	3297553	3088025	2966841 [Bytes]
+------------------------------------
+Verificando datos...
+Construyendo ...
+iaux: 241 - num_sensores: 241
+Enteros:	44 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	153685 [Bytes]
+pgseries:	8457305 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	8409 [Kbytes].
+------------------------------------
+enc_vector Est. Prom.
+pgFirstValue: 	26	26	26 [Bytes]
+lgFirstValue: 	26	26	26 [Bytes]
+pgReference: 	1112402	1840330	1349026 [Bytes]
+pgSeries: 	48684154	79230274	58274562 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+vlc_vector Est. Prom.
+pgFirstValue: 	25	25	25 [Bytes]
+lgFirstValue: 	25	25	25 [Bytes]
+pgReference: 	241693	282421	222069 [Bytes]
+pgSeries: 	8964553	9098561	7858297 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+=======================================================================
+./TSSM_build_full_v2 m30_2024_data.txt m30_2024_ids_estructura.txt 4 10 borrar.txt
+Iniciando TSSM_build.cpp
+Total Ids en grupos: 241
+Cantidad de sensores: 241
+Cantidad de muestras: 35117
+Verificando datos...
+Construyendo ...
+Pos iniciales de refs de cada grupo: 
+0	3	6	10	12	
+Verificando datos...
+Construyendo ...
+posSeries: 0/104
+posSeries: 28/104
+posSeries: 51/104
+posSeries: 86/104
+posSeries: 104 - sensoresIguales: 104
+Verificando datos...
+Construyendo ...
+posSeries: 0/241
+posSeries: 28/241
+posSeries: 51/241
+posSeries: 86/241
+posSeries: 104/241
+posSeries: 241 - sensoresIguales: 241
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	33 [Bytes]
+lgFirst:	129 [Bytes]
+Referencias:	412890 [Bytes]
+pgseries:	3227476 [Bytes]
+lgSeries:	4632609 [Bytes]
+	Estructura:	8079 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	129 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	3644632 [Bytes]
+lgSeries:	4632609 [Bytes]
+	Est.Cod.Sec.:	8083 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	8426569 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	8229 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	7200 [Kbytes].
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	242	378	290 [Bytes]
+lgFirstValue: 	762	1202	898 [Bytes]
+pgReference: 	2310644	3771276	2785900 [Bytes]
+pgSeries: 	18201672	29559624	21770112 [Bytes]
+lgSeries: 	26334714	42928466	31717402 [Bytes]
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	57	57	57 [Bytes]
+lgFirstValue: 	209	225	193 [Bytes]
+pgReference: 	275594	256666	250162 [Bytes]
+pgSeries: 	3228732	3230756	2817532 [Bytes]
+lgSeries: 	3297553	3088025	2966841 [Bytes]
+------------------------------------
+Verificando datos...
+Construyendo ...
+iaux: 241 - num_sensores: 241
+Enteros:	44 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	153685 [Bytes]
+pgseries:	8457305 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	8409 [Kbytes].
+------------------------------------
+enc_vector Est. Prom.
+pgFirstValue: 	26	26	26 [Bytes]
+lgFirstValue: 	26	26	26 [Bytes]
+pgReference: 	1112402	1840330	1349026 [Bytes]
+pgSeries: 	48684154	79230274	58274562 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+vlc_vector Est. Prom.
+pgFirstValue: 	25	25	25 [Bytes]
+lgFirstValue: 	25	25	25 [Bytes]
+pgReference: 	241693	282421	222069 [Bytes]
+pgSeries: 	8964553	9098561	7858297 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+=======================================================================
+./TSSM_build_full_v2 m30_2024_data.txt m30_2024_ids_estructura.txt 4 20 borrar.txt
+Iniciando TSSM_build.cpp
+Total Ids en grupos: 241
+Cantidad de sensores: 241
+Cantidad de muestras: 35117
+Verificando datos...
+Construyendo ...
+Pos iniciales de refs de cada grupo: 
+0	2	4	6	7	
+Verificando datos...
+Construyendo ...
+posSeries: 0/104
+posSeries: 28/104
+posSeries: 51/104
+posSeries: 86/104
+posSeries: 104 - sensoresIguales: 104
+Verificando datos...
+Construyendo ...
+posSeries: 0/241
+posSeries: 28/241
+posSeries: 51/241
+posSeries: 86/241
+posSeries: 104/241
+posSeries: 241 - sensoresIguales: 241
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	129 [Bytes]
+Referencias:	241574 [Bytes]
+pgseries:	3411905 [Bytes]
+lgSeries:	4632609 [Bytes]
+	Estructura:	8092 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	129 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	3644632 [Bytes]
+lgSeries:	4632609 [Bytes]
+	Est.Cod.Sec.:	8083 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	8426569 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	8229 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	7200 [Kbytes].
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	146	218	170 [Bytes]
+lgFirstValue: 	762	1202	898 [Bytes]
+pgReference: 	1338140	2180980	1611900 [Bytes]
+pgSeries: 	19120106	31028442	22857730 [Bytes]
+lgSeries: 	26334714	42928466	31717402 [Bytes]
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	49	49	49 [Bytes]
+lgFirstValue: 	209	225	193 [Bytes]
+pgReference: 	168302	157990	151846 [Bytes]
+pgSeries: 	3502473	3531049	3054161 [Bytes]
+lgSeries: 	3297553	3088025	2966841 [Bytes]
+------------------------------------
+Verificando datos...
+Construyendo ...
+iaux: 241 - num_sensores: 241
+Enteros:	44 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	153685 [Bytes]
+pgseries:	8457305 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	8409 [Kbytes].
+------------------------------------
+enc_vector Est. Prom.
+pgFirstValue: 	26	26	26 [Bytes]
+lgFirstValue: 	26	26	26 [Bytes]
+pgReference: 	1112402	1840330	1349026 [Bytes]
+pgSeries: 	48684154	79230274	58274562 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+vlc_vector Est. Prom.
+pgFirstValue: 	25	25	25 [Bytes]
+lgFirstValue: 	25	25	25 [Bytes]
+pgReference: 	241693	282421	222069 [Bytes]
+pgSeries: 	8964553	9098561	7858297 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+=======================================================================
+./TSSM_build_full_v2 m30_2024_data.txt m30_2024_ids_estructura.txt 4 30 borrar.txt
+Iniciando TSSM_build.cpp
+Total Ids en grupos: 241
+Cantidad de sensores: 241
+Cantidad de muestras: 35117
+Verificando datos...
+Construyendo ...
+Pos iniciales de refs de cada grupo: 
+0	1	2	4	5	
+Verificando datos...
+Construyendo ...
+posSeries: 0/104
+posSeries: 28/104
+posSeries: 51/104
+posSeries: 86/104
+posSeries: 104 - sensoresIguales: 104
+Verificando datos...
+Construyendo ...
+posSeries: 0/241
+posSeries: 28/241
+posSeries: 51/241
+posSeries: 86/241
+posSeries: 104/241
+posSeries: 241 - sensoresIguales: 241
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	129 [Bytes]
+Referencias:	166906 [Bytes]
+pgseries:	3473379 [Bytes]
+lgSeries:	4632609 [Bytes]
+	Estructura:	8079 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	129 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	3644632 [Bytes]
+lgSeries:	4632609 [Bytes]
+	Est.Cod.Sec.:	8083 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	8426569 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	8229 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	7200 [Kbytes].
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	106	154	122 [Bytes]
+lgFirstValue: 	762	1202	898 [Bytes]
+pgReference: 	957636	1561732	1154052 [Bytes]
+pgSeries: 	19496326	31633014	23303062 [Bytes]
+lgSeries: 	26334714	42928466	31717402 [Bytes]
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	41	41	41 [Bytes]
+lgFirstValue: 	209	225	193 [Bytes]
+pgReference: 	117794	109898	106298 [Bytes]
+pgSeries: 	3625219	3654691	3152443 [Bytes]
+lgSeries: 	3297553	3088025	2966841 [Bytes]
+------------------------------------
+Verificando datos...
+Construyendo ...
+iaux: 241 - num_sensores: 241
+Enteros:	44 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	153685 [Bytes]
+pgseries:	8457305 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	8409 [Kbytes].
+------------------------------------
+enc_vector Est. Prom.
+pgFirstValue: 	26	26	26 [Bytes]
+lgFirstValue: 	26	26	26 [Bytes]
+pgReference: 	1112402	1840330	1349026 [Bytes]
+pgSeries: 	48684154	79230274	58274562 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+vlc_vector Est. Prom.
+pgFirstValue: 	25	25	25 [Bytes]
+lgFirstValue: 	25	25	25 [Bytes]
+pgReference: 	241693	282421	222069 [Bytes]
+pgSeries: 	8964553	9098561	7858297 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+=======================================================================
+./TSSM_build_full_v2 m30_2024_data.txt m30_2024_ids_estructura.txt 4 40 borrar.txt
+Iniciando TSSM_build.cpp
+Total Ids en grupos: 241
+Cantidad de sensores: 241
+Cantidad de muestras: 35117
+Verificando datos...
+Construyendo ...
+Pos iniciales de refs de cada grupo: 
+0	1	2	3	4	
+Verificando datos...
+Construyendo ...
+posSeries: 0/104
+posSeries: 28/104
+posSeries: 51/104
+posSeries: 86/104
+posSeries: 104 - sensoresIguales: 104
+Verificando datos...
+Construyendo ...
+posSeries: 0/241
+posSeries: 28/241
+posSeries: 51/241
+posSeries: 86/241
+posSeries: 104/241
+posSeries: 241 - sensoresIguales: 241
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	17 [Bytes]
+lgFirst:	129 [Bytes]
+Referencias:	136160 [Bytes]
+pgseries:	3512900 [Bytes]
+lgSeries:	4632609 [Bytes]
+	Estructura:	8087 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	129 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	3644632 [Bytes]
+lgSeries:	4632609 [Bytes]
+	Est.Cod.Sec.:	8083 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	8426569 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	8229 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	7200 [Kbytes].
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	98	138	106 [Bytes]
+lgFirstValue: 	762	1202	898 [Bytes]
+pgReference: 	767720	1251808	924896 [Bytes]
+pgSeries: 	19702632	31969280	23549888 [Bytes]
+lgSeries: 	26334714	42928466	31717402 [Bytes]
+------------------------------------
+enc_vector Est:
+pgFirstValue: 	41	41	41 [Bytes]
+lgFirstValue: 	209	225	193 [Bytes]
+pgReference: 	94768	88696	85608 [Bytes]
+pgSeries: 	3687452	3734412	3215076 [Bytes]
+lgSeries: 	3297553	3088025	2966841 [Bytes]
+------------------------------------
+Verificando datos...
+Construyendo ...
+iaux: 241 - num_sensores: 241
+Enteros:	44 [Bytes]
+pgFirst:	9 [Bytes]
+lgFirst:	9 [Bytes]
+Referencias:	153685 [Bytes]
+pgseries:	8457305 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	8409 [Kbytes].
+------------------------------------
+enc_vector Est. Prom.
+pgFirstValue: 	26	26	26 [Bytes]
+lgFirstValue: 	26	26	26 [Bytes]
+pgReference: 	1112402	1840330	1349026 [Bytes]
+pgSeries: 	48684154	79230274	58274562 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+vlc_vector Est. Prom.
+pgFirstValue: 	25	25	25 [Bytes]
+lgFirstValue: 	25	25	25 [Bytes]
+pgReference: 	241693	282421	222069 [Bytes]
+pgSeries: 	8964553	9098561	7858297 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+Fecha FIN: 2025/03/06 18:13:02
