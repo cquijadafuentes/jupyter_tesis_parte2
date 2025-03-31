@@ -1,0 +1,243 @@
+DATASET: data_PM1xxx1.txt
+Lista de pesos W: vecinos_PM1xxx1.txt
+Cantidad de Ids en la lista de pesos: 44
+Cantidad de sensores: 44
+Cantidad de muestras: 2880
+Cantidad sensores: 44
+Cantidad de nans: 
+	intensidad:	0
+	ocupacion:	0
+	carga	:	0
+	vmed	:	0
+39 (N) = 44 (sensores) - 4 (cantFijas) - 1 (cantSinVecinos)
+N: 39 - valorN: 39
+dataset		IAET	N	totST	lVecs	stFijas	totalW
+intensidad	0.3619	39	44	44	4	74
+39 (N) = 44 (sensores) - 4 (cantFijas) - 1 (cantSinVecinos)
+N: 39 - valorN: 39
+dataset		IAET	N	totST	lVecs	stFijas	totalW
+ocupacion	0.4071	39	44	44	4	74
+39 (N) = 44 (sensores) - 4 (cantFijas) - 1 (cantSinVecinos)
+N: 39 - valorN: 39
+dataset		IAET	N	totST	lVecs	stFijas	totalW
+carga		0.4509	39	44	44	4	74
+39 (N) = 44 (sensores) - 4 (cantFijas) - 1 (cantSinVecinos)
+N: 39 - valorN: 39
+dataset		IAET	N	totST	lVecs	stFijas	totalW
+vmed		0.4030	39	44	44	4	74
+DATASET: data_PM1xxx2.txt
+Lista de pesos W: vecinos_PM1xxx2.txt
+Cantidad de Ids en la lista de pesos: 27
+Cantidad de sensores: 27
+Cantidad de muestras: 2880
+Cantidad sensores: 27
+Cantidad de nans: 
+	intensidad:	0
+	ocupacion:	0
+	carga	:	0
+	vmed	:	0
+25 (N) = 27 (sensores) - 2 (cantFijas) - 0 (cantSinVecinos)
+N: 25 - valorN: 25
+dataset		IAET	N	totST	lVecs	stFijas	totalW
+intensidad	0.5670	25	27	27	2	46
+25 (N) = 27 (sensores) - 2 (cantFijas) - 0 (cantSinVecinos)
+N: 25 - valorN: 25
+dataset		IAET	N	totST	lVecs	stFijas	totalW
+ocupacion	0.3759	25	27	27	2	46
+25 (N) = 27 (sensores) - 2 (cantFijas) - 0 (cantSinVecinos)
+N: 25 - valorN: 25
+dataset		IAET	N	totST	lVecs	stFijas	totalW
+carga		0.1879	25	27	27	2	46
+25 (N) = 27 (sensores) - 2 (cantFijas) - 0 (cantSinVecinos)
+N: 25 - valorN: 25
+dataset		IAET	N	totST	lVecs	stFijas	totalW
+vmed		0.2933	25	27	27	2	46
+DATASET: data_PM2xxx1.txt
+Lista de pesos W: vecinos_PM2xxx1.txt
+Cantidad de Ids en la lista de pesos: 39
+Cantidad de sensores: 39
+Cantidad de muestras: 2880
+Cantidad sensores: 39
+Cantidad de nans: 
+	intensidad:	0
+	ocupacion:	0
+	carga	:	0
+	vmed	:	0
+39 (N) = 39 (sensores) - 0 (cantFijas) - 0 (cantSinVecinos)
+N: 39 - valorN: 39
+dataset		IAET	N	totST	lVecs	stFijas	totalW
+intensidad	0.1919	39	39	39	0	78
+39 (N) = 39 (sensores) - 0 (cantFijas) - 0 (cantSinVecinos)
+N: 39 - valorN: 39
+dataset		IAET	N	totST	lVecs	stFijas	totalW
+ocupacion	0.4330	39	39	39	0	78
+39 (N) = 39 (sensores) - 0 (cantFijas) - 0 (cantSinVecinos)
+N: 39 - valorN: 39
+dataset		IAET	N	totST	lVecs	stFijas	totalW
+carga		0.5275	39	39	39	0	78
+39 (N) = 39 (sensores) - 0 (cantFijas) - 0 (cantSinVecinos)
+N: 39 - valorN: 39
+dataset		IAET	N	totST	lVecs	stFijas	totalW
+vmed		0.1816	39	39	39	0	78
+DATASET: data_PM2xxx2.txt
+Lista de pesos W: vecinos_PM2xxx2.txt
+Cantidad de Ids en la lista de pesos: 23
+Cantidad de sensores: 23
+Cantidad de muestras: 2880
+Cantidad sensores: 23
+Cantidad de nans: 
+	intensidad:	0
+	ocupacion:	0
+	carga	:	0
+	vmed	:	0
+23 (N) = 23 (sensores) - 0 (cantFijas) - 0 (cantSinVecinos)
+N: 23 - valorN: 23
+dataset		IAET	N	totST	lVecs	stFijas	totalW
+intensidad	0.4135	23	23	23	0	46
+23 (N) = 23 (sensores) - 0 (cantFijas) - 0 (cantSinVecinos)
+N: 23 - valorN: 23
+dataset		IAET	N	totST	lVecs	stFijas	totalW
+ocupacion	0.1747	23	23	23	0	46
+23 (N) = 23 (sensores) - 0 (cantFijas) - 0 (cantSinVecinos)
+N: 23 - valorN: 23
+dataset		IAET	N	totST	lVecs	stFijas	totalW
+carga		-0.0034	23	23	23	0	46
+23 (N) = 23 (sensores) - 0 (cantFijas) - 0 (cantSinVecinos)
+N: 23 - valorN: 23
+dataset		IAET	N	totST	lVecs	stFijas	totalW
+vmed		-0.1216	23	23	23	0	46
+DATASET: data_PMxxxxx.txt
+Lista de pesos W: vecinos_PM1xxxx.txt
+Cantidad de Ids en la lista de pesos: 103
+Cantidad de sensores: 289
+Cantidad de muestras: 2880
+Cantidad sensores: 103
+Cantidad de nans: 
+	intensidad:	0
+	ocupacion:	0
+	carga	:	0
+	vmed	:	0
+91 (N) = 103 (sensores) - 11 (cantFijas) - 1 (cantSinVecinos)
+N: 91 - valorN: 91
+dataset		IAET	N	totST	lVecs	stFijas	totalW
+intensidad	0.0293	91	103	103	11	178
+91 (N) = 103 (sensores) - 11 (cantFijas) - 1 (cantSinVecinos)
+N: 91 - valorN: 91
+dataset		IAET	N	totST	lVecs	stFijas	totalW
+ocupacion	0.0685	91	103	103	11	178
+91 (N) = 103 (sensores) - 11 (cantFijas) - 1 (cantSinVecinos)
+N: 91 - valorN: 91
+dataset		IAET	N	totST	lVecs	stFijas	totalW
+carga		0.0364	91	103	103	11	178
+91 (N) = 103 (sensores) - 11 (cantFijas) - 1 (cantSinVecinos)
+N: 91 - valorN: 91
+dataset		IAET	N	totST	lVecs	stFijas	totalW
+vmed		0.3534	91	103	103	11	178
+DATASET: data_PMxxxxx.txt
+Lista de pesos W: vecinos_PM2xxxx.txt
+Cantidad de Ids en la lista de pesos: 88
+Cantidad de sensores: 289
+Cantidad de muestras: 2880
+Cantidad sensores: 88
+Cantidad de nans: 
+	intensidad:	0
+	ocupacion:	0
+	carga	:	0
+	vmed	:	0
+88 (N) = 88 (sensores) - 0 (cantFijas) - 0 (cantSinVecinos)
+N: 88 - valorN: 88
+dataset		IAET	N	totST	lVecs	stFijas	totalW
+intensidad	-0.0892	88	88	88	0	176
+88 (N) = 88 (sensores) - 0 (cantFijas) - 0 (cantSinVecinos)
+N: 88 - valorN: 88
+dataset		IAET	N	totST	lVecs	stFijas	totalW
+ocupacion	0.2300	88	88	88	0	176
+88 (N) = 88 (sensores) - 0 (cantFijas) - 0 (cantSinVecinos)
+N: 88 - valorN: 88
+dataset		IAET	N	totST	lVecs	stFijas	totalW
+carga		0.1176	88	88	88	0	176
+88 (N) = 88 (sensores) - 0 (cantFijas) - 0 (cantSinVecinos)
+N: 88 - valorN: 88
+dataset		IAET	N	totST	lVecs	stFijas	totalW
+vmed		0.0235	88	88	88	0	176
+DATASET: data_PMxxxxx.txt
+Lista de pesos W: vecinos_PMxxxxx.txt
+Cantidad de Ids en la lista de pesos: 289
+Cantidad de sensores: 289
+Cantidad de muestras: 2880
+Cantidad sensores: 289
+Cantidad de nans: 
+	intensidad:	0
+	ocupacion:	0
+	carga	:	0
+	vmed	:	0
+269 (N) = 289 (sensores) - 19 (cantFijas) - 1 (cantSinVecinos)
+N: 269 - valorN: 269
+dataset		IAET	N	totST	lVecs	stFijas	totalW
+intensidad	0.0096	269	289	289	19	526
+269 (N) = 289 (sensores) - 19 (cantFijas) - 1 (cantSinVecinos)
+N: 269 - valorN: 269
+dataset		IAET	N	totST	lVecs	stFijas	totalW
+ocupacion	0.0199	269	289	289	19	526
+269 (N) = 289 (sensores) - 19 (cantFijas) - 1 (cantSinVecinos)
+N: 269 - valorN: 269
+dataset		IAET	N	totST	lVecs	stFijas	totalW
+carga		0.0852	269	289	289	19	526
+269 (N) = 289 (sensores) - 19 (cantFijas) - 1 (cantSinVecinos)
+N: 269 - valorN: 269
+dataset		IAET	N	totST	lVecs	stFijas	totalW
+vmed		0.1146	269	289	289	19	526
+DATASET: data_PMxxxxx.txt
+Lista de pesos W: vecinos_PM12x12_v2.txt
+Cantidad de Ids en la lista de pesos: 124
+Cantidad de sensores: 289
+Cantidad de muestras: 2880
+Cantidad sensores: 124
+Cantidad de nans: 
+	intensidad:	0
+	ocupacion:	0
+	carga	:	0
+	vmed	:	0
+117 (N) = 124 (sensores) - 6 (cantFijas) - 1 (cantSinVecinos)
+N: 117 - valorN: 117
+dataset		IAET	N	totST	lVecs	stFijas	totalW
+intensidad	0.1748	117	124	124	6	306
+117 (N) = 124 (sensores) - 6 (cantFijas) - 1 (cantSinVecinos)
+N: 117 - valorN: 117
+dataset		IAET	N	totST	lVecs	stFijas	totalW
+ocupacion	0.1886	117	124	124	6	306
+117 (N) = 124 (sensores) - 6 (cantFijas) - 1 (cantSinVecinos)
+N: 117 - valorN: 117
+dataset		IAET	N	totST	lVecs	stFijas	totalW
+carga		0.2955	117	124	124	6	306
+117 (N) = 124 (sensores) - 6 (cantFijas) - 1 (cantSinVecinos)
+N: 117 - valorN: 117
+dataset		IAET	N	totST	lVecs	stFijas	totalW
+vmed		0.2121	117	124	124	6	306
+DATASET: data_PMxxxxx.txt
+Lista de pesos W: vecinos_PMrandom.txt
+Cantidad de Ids en la lista de pesos: 133
+Cantidad de sensores: 289
+Cantidad de muestras: 2880
+Cantidad sensores: 133
+Cantidad de nans: 
+	intensidad:	0
+	ocupacion:	0
+	carga	:	0
+	vmed	:	0
+127 (N) = 133 (sensores) - 6 (cantFijas) - 0 (cantSinVecinos)
+N: 127 - valorN: 127
+dataset		IAET	N	totST	lVecs	stFijas	totalW
+intensidad	-0.0581	127	133	133	6	508
+127 (N) = 133 (sensores) - 6 (cantFijas) - 0 (cantSinVecinos)
+N: 127 - valorN: 127
+dataset		IAET	N	totST	lVecs	stFijas	totalW
+ocupacion	-0.0144	127	133	133	6	508
+127 (N) = 133 (sensores) - 6 (cantFijas) - 0 (cantSinVecinos)
+N: 127 - valorN: 127
+dataset		IAET	N	totST	lVecs	stFijas	totalW
+carga		0.0073	127	133	133	6	508
+127 (N) = 133 (sensores) - 6 (cantFijas) - 0 (cantSinVecinos)
+N: 127 - valorN: 127
+dataset		IAET	N	totST	lVecs	stFijas	totalW
+vmed		0.0524	127	133	133	6	508

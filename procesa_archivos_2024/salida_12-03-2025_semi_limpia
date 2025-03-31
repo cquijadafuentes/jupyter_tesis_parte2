@@ -1,0 +1,1082 @@
+Fecha INICIO: 2025/03/12 21:55:59
+=======================================================================
+./TSSM_build_full_v3 m30_2024_data.txt m30_2024_ids_estructura.txt 1 5 borrar.txt
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	73 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	1157378 [Bytes]
+pgseries:	5421858 [Bytes]
+lgSeries:	6511393 [Bytes]
+	Estructura:	12783 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	6584048 [Bytes]
+lgSeries:	6511393 [Bytes]
+	Est.Cod.Sec.:	12788 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	15512025 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	15148 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	12315 [Kbytes].
+------------------------------------
+bitcompress Est:
+pgFirstValue: 	73	73	73 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	1260290	1260290	1260290 [Bytes]
+pgSeries: 	4864738	4864738	4864738 [Bytes]
+lgSeries: 	7244377	7244377	7244377 [Bytes]
+------------------------------------
+Enteros:	44 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	348557 [Bytes]
+pgseries:	15747385 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	15718 [Kbytes].
+------------------------------------
+bitcompress Est. Prom.
+pgFirstValue: 	9	9	9 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	263445	263445	263445 [Bytes]
+pgSeries: 	13365497	13365497	13365497 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+=======================================================================
+./TSSM_build_full_v3 m30_2024_data.txt m30_2024_ids_estructura.txt 1 10 borrar.txt
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	57 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	623706 [Bytes]
+pgseries:	6222412 [Bytes]
+lgSeries:	6511393 [Bytes]
+	Estructura:	13044 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	6584048 [Bytes]
+lgSeries:	6511393 [Bytes]
+	Est.Cod.Sec.:	12788 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	15512025 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	15148 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	12315 [Kbytes].
+------------------------------------
+bitcompress Est:
+pgFirstValue: 	41	41	41 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	680642	680642	680642 [Bytes]
+pgSeries: 	5479404	5479404	5479404 [Bytes]
+lgSeries: 	7244377	7244377	7244377 [Bytes]
+------------------------------------
+Enteros:	44 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	348557 [Bytes]
+pgseries:	15747385 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	15718 [Kbytes].
+------------------------------------
+bitcompress Est. Prom.
+pgFirstValue: 	9	9	9 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	263445	263445	263445 [Bytes]
+pgSeries: 	13365497	13365497	13365497 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+=======================================================================
+./TSSM_build_full_v3 m30_2024_data.txt m30_2024_ids_estructura.txt 1 20 borrar.txt
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	49 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	352278 [Bytes]
+pgseries:	6349633 [Bytes]
+lgSeries:	6511393 [Bytes]
+	Estructura:	12903 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	6584048 [Bytes]
+lgSeries:	6511393 [Bytes]
+	Est.Cod.Sec.:	12788 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	15512025 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	15148 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	12315 [Kbytes].
+------------------------------------
+bitcompress Est:
+pgFirstValue: 	25	25	25 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	386422	386422	386422 [Bytes]
+pgSeries: 	5707777	5707777	5707777 [Bytes]
+lgSeries: 	7244377	7244377	7244377 [Bytes]
+------------------------------------
+Enteros:	44 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	348557 [Bytes]
+pgseries:	15747385 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	15718 [Kbytes].
+------------------------------------
+bitcompress Est. Prom.
+pgFirstValue: 	9	9	9 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	263445	263445	263445 [Bytes]
+pgSeries: 	13365497	13365497	13365497 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+=======================================================================
+./TSSM_build_full_v3 m30_2024_data.txt m30_2024_ids_estructura.txt 1 30 borrar.txt
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	41 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	255858 [Bytes]
+pgseries:	6670315 [Bytes]
+lgSeries:	6511393 [Bytes]
+	Estructura:	13122 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	6584048 [Bytes]
+lgSeries:	6511393 [Bytes]
+	Est.Cod.Sec.:	12788 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	15512025 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	15148 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	12315 [Kbytes].
+------------------------------------
+bitcompress Est:
+pgFirstValue: 	25	25	25 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	272258	272258	272258 [Bytes]
+pgSeries: 	5878915	5878915	5878915 [Bytes]
+lgSeries: 	7244377	7244377	7244377 [Bytes]
+------------------------------------
+Enteros:	44 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	348557 [Bytes]
+pgseries:	15747385 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	15718 [Kbytes].
+------------------------------------
+bitcompress Est. Prom.
+pgFirstValue: 	9	9	9 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	263445	263445	263445 [Bytes]
+pgSeries: 	13365497	13365497	13365497 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+=======================================================================
+./TSSM_build_full_v3 m30_2024_data.txt m30_2024_ids_estructura.txt 1 40 borrar.txt
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	41 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	205480 [Bytes]
+pgseries:	6770468 [Bytes]
+lgSeries:	6511393 [Bytes]
+	Estructura:	13171 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	6584048 [Bytes]
+lgSeries:	6511393 [Bytes]
+	Est.Cod.Sec.:	12788 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	15512025 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	15148 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	12315 [Kbytes].
+------------------------------------
+bitcompress Est:
+pgFirstValue: 	17	17	17 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	219560	219560	219560 [Bytes]
+pgSeries: 	5940380	5940380	5940380 [Bytes]
+lgSeries: 	7244377	7244377	7244377 [Bytes]
+------------------------------------
+Enteros:	44 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	348557 [Bytes]
+pgseries:	15747385 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	15718 [Kbytes].
+------------------------------------
+bitcompress Est. Prom.
+pgFirstValue: 	9	9	9 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	263445	263445	263445 [Bytes]
+pgSeries: 	13365497	13365497	13365497 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+=======================================================================
+./TSSM_build_full_v3 m30_2024_data.txt m30_2024_ids_estructura.txt 2 5 borrar.txt
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	49 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	325666 [Bytes]
+pgseries:	1593946 [Bytes]
+lgSeries:	2055409 [Bytes]
+	Estructura:	3881 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	1907008 [Bytes]
+lgSeries:	2055409 [Bytes]
+	Est.Cod.Sec.:	3869 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	4754753 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	4643 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	6724 [Kbytes].
+------------------------------------
+bitcompress Est:
+pgFirstValue: 	17	17	17 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	672114	672114	672114 [Bytes]
+pgSeries: 	2726866	2726866	2726866 [Bytes]
+lgSeries: 	4290137	4290137	4290137 [Bytes]
+------------------------------------
+Enteros:	44 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	105061 [Bytes]
+pgseries:	4641681 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	4635 [Kbytes].
+------------------------------------
+bitcompress Est. Prom.
+pgFirstValue: 	9	9	9 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	118589	118589	118589 [Bytes]
+pgSeries: 	7640593	7640593	7640593 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+=======================================================================
+./TSSM_build_full_v3 m30_2024_data.txt m30_2024_ids_estructura.txt 2 10 borrar.txt
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	41 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	177658 [Bytes]
+pgseries:	1882396 [Bytes]
+lgSeries:	2055409 [Bytes]
+	Estructura:	4019 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	1907008 [Bytes]
+lgSeries:	2055409 [Bytes]
+	Est.Cod.Sec.:	3869 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	4754753 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	4643 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	6724 [Kbytes].
+------------------------------------
+bitcompress Est:
+pgFirstValue: 	17	17	17 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	368978	368978	368978 [Bytes]
+pgSeries: 	3073756	3073756	3073756 [Bytes]
+lgSeries: 	4290137	4290137	4290137 [Bytes]
+------------------------------------
+Enteros:	44 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	105061 [Bytes]
+pgseries:	4641681 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	4635 [Kbytes].
+------------------------------------
+bitcompress Est. Prom.
+pgFirstValue: 	9	9	9 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	118589	118589	118589 [Bytes]
+pgSeries: 	7640593	7640593	7640593 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+=======================================================================
+./TSSM_build_full_v3 m30_2024_data.txt m30_2024_ids_estructura.txt 2 20 borrar.txt
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	41 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	98726 [Bytes]
+pgseries:	1985241 [Bytes]
+lgSeries:	2055409 [Bytes]
+	Estructura:	4042 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	1907008 [Bytes]
+lgSeries:	2055409 [Bytes]
+	Est.Cod.Sec.:	3869 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	4754753 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	4643 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	6724 [Kbytes].
+------------------------------------
+bitcompress Est:
+pgFirstValue: 	17	17	17 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	215230	215230	215230 [Bytes]
+pgSeries: 	3231833	3231833	3231833 [Bytes]
+lgSeries: 	4290137	4290137	4290137 [Bytes]
+------------------------------------
+Enteros:	44 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	105061 [Bytes]
+pgseries:	4641681 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	4635 [Kbytes].
+------------------------------------
+bitcompress Est. Prom.
+pgFirstValue: 	9	9	9 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	118589	118589	118589 [Bytes]
+pgSeries: 	7640593	7640593	7640593 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+=======================================================================
+./TSSM_build_full_v3 m30_2024_data.txt m30_2024_ids_estructura.txt 2 30 borrar.txt
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	41 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	71434 [Bytes]
+pgseries:	2062939 [Bytes]
+lgSeries:	2055409 [Bytes]
+	Estructura:	4091 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	1907008 [Bytes]
+lgSeries:	2055409 [Bytes]
+	Est.Cod.Sec.:	3869 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	4754753 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	4643 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	6724 [Kbytes].
+------------------------------------
+bitcompress Est:
+pgFirstValue: 	17	17	17 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	153738	153738	153738 [Bytes]
+pgSeries: 	3324059	3324059	3324059 [Bytes]
+lgSeries: 	4290137	4290137	4290137 [Bytes]
+------------------------------------
+Enteros:	44 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	105061 [Bytes]
+pgseries:	4641681 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	4635 [Kbytes].
+------------------------------------
+bitcompress Est. Prom.
+pgFirstValue: 	9	9	9 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	118589	118589	118589 [Bytes]
+pgSeries: 	7640593	7640593	7640593 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+=======================================================================
+./TSSM_build_full_v3 m30_2024_data.txt m30_2024_ids_estructura.txt 2 40 borrar.txt
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	41 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	57240 [Bytes]
+pgseries:	2079796 [Bytes]
+lgSeries:	2055409 [Bytes]
+	Estructura:	4094 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	1907008 [Bytes]
+lgSeries:	2055409 [Bytes]
+	Est.Cod.Sec.:	3869 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	4754753 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	4643 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	6724 [Kbytes].
+------------------------------------
+bitcompress Est:
+pgFirstValue: 	17	17	17 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	122992	122992	122992 [Bytes]
+pgSeries: 	3354796	3354796	3354796 [Bytes]
+lgSeries: 	4290137	4290137	4290137 [Bytes]
+------------------------------------
+Enteros:	44 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	105061 [Bytes]
+pgseries:	4641681 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	4635 [Kbytes].
+------------------------------------
+bitcompress Est. Prom.
+pgFirstValue: 	9	9	9 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	118589	118589	118589 [Bytes]
+pgSeries: 	7640593	7640593	7640593 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+=======================================================================
+./TSSM_build_full_v3 m30_2024_data.txt m30_2024_ids_estructura.txt 3 5 borrar.txt
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	57 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	482322 [Bytes]
+pgseries:	2468122 [Bytes]
+lgSeries:	2996321 [Bytes]
+	Estructura:	5807 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	2888576 [Bytes]
+lgSeries:	2996321 [Bytes]
+	Est.Cod.Sec.:	5747 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	7332017 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	7160 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	7200 [Kbytes].
+------------------------------------
+bitcompress Est:
+pgFirstValue: 	41	41	41 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	733570	733570	733570 [Bytes]
+pgSeries: 	2836658	2836658	2836658 [Bytes]
+lgSeries: 	4553561	4553561	4553561 [Bytes]
+------------------------------------
+Enteros:	44 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	186141 [Bytes]
+pgseries:	7522289 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	7527 [Kbytes].
+------------------------------------
+bitcompress Est. Prom.
+pgFirstValue: 	9	9	9 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	153685	153685	153685 [Bytes]
+pgSeries: 	7930265	7930265	7930265 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+=======================================================================
+./TSSM_build_full_v3 m30_2024_data.txt m30_2024_ids_estructura.txt 3 10 borrar.txt
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	49 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	262994 [Bytes]
+pgseries:	2993300 [Bytes]
+lgSeries:	2996321 [Bytes]
+	Estructura:	6106 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	2888576 [Bytes]
+lgSeries:	2996321 [Bytes]
+	Est.Cod.Sec.:	5747 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	7332017 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	7160 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	7200 [Kbytes].
+------------------------------------
+bitcompress Est:
+pgFirstValue: 	25	25	25 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	395330	395330	395330 [Bytes]
+pgSeries: 	3205516	3205516	3205516 [Bytes]
+lgSeries: 	4553561	4553561	4553561 [Bytes]
+------------------------------------
+Enteros:	44 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	186141 [Bytes]
+pgseries:	7522289 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	7527 [Kbytes].
+------------------------------------
+bitcompress Est. Prom.
+pgFirstValue: 	9	9	9 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	153685	153685	153685 [Bytes]
+pgSeries: 	7930265	7930265	7930265 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+=======================================================================
+./TSSM_build_full_v3 m30_2024_data.txt m30_2024_ids_estructura.txt 3 20 borrar.txt
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	41 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	151646 [Bytes]
+pgseries:	3108625 [Bytes]
+lgSeries:	2996321 [Bytes]
+	Estructura:	6110 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	2888576 [Bytes]
+lgSeries:	2996321 [Bytes]
+	Est.Cod.Sec.:	5747 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	7332017 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	7160 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	7200 [Kbytes].
+------------------------------------
+bitcompress Est:
+pgFirstValue: 	17	17	17 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	224014	224014	224014 [Bytes]
+pgSeries: 	3381161	3381161	3381161 [Bytes]
+lgSeries: 	4553561	4553561	4553561 [Bytes]
+------------------------------------
+Enteros:	44 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	186141 [Bytes]
+pgseries:	7522289 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	7527 [Kbytes].
+------------------------------------
+bitcompress Est. Prom.
+pgFirstValue: 	9	9	9 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	153685	153685	153685 [Bytes]
+pgSeries: 	7930265	7930265	7930265 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+=======================================================================
+./TSSM_build_full_v3 m30_2024_data.txt m30_2024_ids_estructura.txt 3 30 borrar.txt
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	41 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	105642 [Bytes]
+pgseries:	3261243 [Bytes]
+lgSeries:	2996321 [Bytes]
+	Estructura:	6214 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	2888576 [Bytes]
+lgSeries:	2996321 [Bytes]
+	Est.Cod.Sec.:	5747 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	7332017 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	7160 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	7200 [Kbytes].
+------------------------------------
+bitcompress Est:
+pgFirstValue: 	17	17	17 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	158130	158130	158130 [Bytes]
+pgSeries: 	3455811	3455811	3455811 [Bytes]
+lgSeries: 	4553561	4553561	4553561 [Bytes]
+------------------------------------
+Enteros:	44 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	186141 [Bytes]
+pgseries:	7522289 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	7527 [Kbytes].
+------------------------------------
+bitcompress Est. Prom.
+pgFirstValue: 	9	9	9 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	153685	153685	153685 [Bytes]
+pgSeries: 	7930265	7930265	7930265 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+=======================================================================
+./TSSM_build_full_v3 m30_2024_data.txt m30_2024_ids_estructura.txt 3 40 borrar.txt
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	41 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	85600 [Bytes]
+pgseries:	3290476 [Bytes]
+lgSeries:	2996321 [Bytes]
+	Estructura:	6223 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	2888576 [Bytes]
+lgSeries:	2996321 [Bytes]
+	Est.Cod.Sec.:	5747 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	7332017 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	7160 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	7200 [Kbytes].
+------------------------------------
+bitcompress Est:
+pgFirstValue: 	17	17	17 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	127384	127384	127384 [Bytes]
+pgSeries: 	3495332	3495332	3495332 [Bytes]
+lgSeries: 	4553561	4553561	4553561 [Bytes]
+------------------------------------
+Enteros:	44 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	186141 [Bytes]
+pgseries:	7522289 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	7527 [Kbytes].
+------------------------------------
+bitcompress Est. Prom.
+pgFirstValue: 	9	9	9 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	153685	153685	153685 [Bytes]
+pgSeries: 	7930265	7930265	7930265 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+=======================================================================
+./TSSM_build_full_v3 m30_2024_data.txt m30_2024_ids_estructura.txt 4 5 borrar.txt
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	73 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	452274 [Bytes]
+pgseries:	2439234 [Bytes]
+lgSeries:	2966841 [Bytes]
+	Estructura:	5721 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	3015016 [Bytes]
+lgSeries:	2966841 [Bytes]
+	Est.Cod.Sec.:	5841 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	7942193 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	7756 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	7200 [Kbytes].
+------------------------------------
+bitcompress Est:
+pgFirstValue: 	57	57	57 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	759914	759914	759914 [Bytes]
+pgSeries: 	2871794	2871794	2871794 [Bytes]
+lgSeries: 	4632609	4632609	4632609 [Bytes]
+------------------------------------
+Enteros:	44 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	222069 [Bytes]
+pgseries:	7858297 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	7891 [Kbytes].
+------------------------------------
+bitcompress Est. Prom.
+pgFirstValue: 	9	9	9 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	153685	153685	153685 [Bytes]
+pgSeries: 	8457305	8457305	8457305 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+=======================================================================
+./TSSM_build_full_v3 m30_2024_data.txt m30_2024_ids_estructura.txt 4 10 borrar.txt
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	57 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	250162 [Bytes]
+pgseries:	2817532 [Bytes]
+lgSeries:	2966841 [Bytes]
+	Estructura:	5893 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	3015016 [Bytes]
+lgSeries:	2966841 [Bytes]
+	Est.Cod.Sec.:	5841 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	7942193 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	7756 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	7200 [Kbytes].
+------------------------------------
+bitcompress Est:
+pgFirstValue: 	33	33	33 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	412890	412890	412890 [Bytes]
+pgSeries: 	3227476	3227476	3227476 [Bytes]
+lgSeries: 	4632609	4632609	4632609 [Bytes]
+------------------------------------
+Enteros:	44 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	222069 [Bytes]
+pgseries:	7858297 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	7891 [Kbytes].
+------------------------------------
+bitcompress Est. Prom.
+pgFirstValue: 	9	9	9 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	153685	153685	153685 [Bytes]
+pgSeries: 	8457305	8457305	8457305 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+=======================================================================
+./TSSM_build_full_v3 m30_2024_data.txt m30_2024_ids_estructura.txt 4 20 borrar.txt
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	49 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	151846 [Bytes]
+pgseries:	3054161 [Bytes]
+lgSeries:	2966841 [Bytes]
+	Estructura:	6028 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	3015016 [Bytes]
+lgSeries:	2966841 [Bytes]
+	Est.Cod.Sec.:	5841 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	7942193 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	7756 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	7200 [Kbytes].
+------------------------------------
+bitcompress Est:
+pgFirstValue: 	25	25	25 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	241574	241574	241574 [Bytes]
+pgSeries: 	3411905	3411905	3411905 [Bytes]
+lgSeries: 	4632609	4632609	4632609 [Bytes]
+------------------------------------
+Enteros:	44 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	222069 [Bytes]
+pgseries:	7858297 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	7891 [Kbytes].
+------------------------------------
+bitcompress Est. Prom.
+pgFirstValue: 	9	9	9 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	153685	153685	153685 [Bytes]
+pgSeries: 	8457305	8457305	8457305 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+=======================================================================
+./TSSM_build_full_v3 m30_2024_data.txt m30_2024_ids_estructura.txt 4 30 borrar.txt
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	41 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	106298 [Bytes]
+pgseries:	3152443 [Bytes]
+lgSeries:	2966841 [Bytes]
+	Estructura:	6079 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	3015016 [Bytes]
+lgSeries:	2966841 [Bytes]
+	Est.Cod.Sec.:	5841 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	7942193 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	7756 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	7200 [Kbytes].
+------------------------------------
+bitcompress Est:
+pgFirstValue: 	25	25	25 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	166906	166906	166906 [Bytes]
+pgSeries: 	3473379	3473379	3473379 [Bytes]
+lgSeries: 	4632609	4632609	4632609 [Bytes]
+------------------------------------
+Enteros:	44 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	222069 [Bytes]
+pgseries:	7858297 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	7891 [Kbytes].
+------------------------------------
+bitcompress Est. Prom.
+pgFirstValue: 	9	9	9 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	153685	153685	153685 [Bytes]
+pgSeries: 	8457305	8457305	8457305 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+=======================================================================
+./TSSM_build_full_v3 m30_2024_data.txt m30_2024_ids_estructura.txt 4 40 borrar.txt
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	41 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	85608 [Bytes]
+pgseries:	3215076 [Bytes]
+lgSeries:	2966841 [Bytes]
+	Estructura:	6120 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	3015016 [Bytes]
+lgSeries:	2966841 [Bytes]
+	Est.Cod.Sec.:	5841 [Kbytes].
+------------------------------------
+Enteros:	64 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	0 [Bytes]
+pgseries:	7942193 [Bytes]
+lgSeries:	0 [Bytes]
+	E.Cod.Sec.TI:	7756 [Kbytes].
+------------------------------------
+	Enteros:	33060 [Kbytes].
+------------------------------------
+	IntVector:	7200 [Kbytes].
+------------------------------------
+bitcompress Est:
+pgFirstValue: 	17	17	17 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	136160	136160	136160 [Bytes]
+pgSeries: 	3512900	3512900	3512900 [Bytes]
+lgSeries: 	4632609	4632609	4632609 [Bytes]
+------------------------------------
+Enteros:	44 [Bytes]
+pgFirst:	25 [Bytes]
+lgFirst:	25 [Bytes]
+Referencias:	222069 [Bytes]
+pgseries:	7858297 [Bytes]
+lgSeries:	0 [Bytes]
+	Est. RProm:	7891 [Kbytes].
+------------------------------------
+bitcompress Est. Prom.
+pgFirstValue: 	9	9	9 [Bytes]
+lgFirstValue: 	9	9	9 [Bytes]
+pgReference: 	153685	153685	153685 [Bytes]
+pgSeries: 	8457305	8457305	8457305 [Bytes]
+lgSeries: 	0	0	0 [Bytes]
+------------------------------------
+=======================================================================
+Fecha FIN: 2025/03/13 00:20:31
