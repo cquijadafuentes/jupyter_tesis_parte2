@@ -1,0 +1,34 @@
+Ejecutando: ./TS_explora_vlcvector_compara_series_doble_diferencia_todos m30_2024_data_fulldates_intensidad.txt m30_2024_ids_por_grupo_intensidad.txt histograma_doble_diferencia_intensidad_porgrupos.txt
+Valores golomb: 
+M: 10
+B: 3
+Tope: 6
+Iniciando lectura para codificación por semana
+Total Ids en grupos: 240
+Cantidad de sensores: 240
+Cantidad de muestras: 35136
+ ********************** 
+		BC	ED	EG	Fi	Go
+Datos_Original	12567672	16582328	19915848	15621216	424320783	[Bytes]
+Datos_Code1	13103496	13245000	14812568	11923248	90662053	[Bytes]
+Datos_Code2	13555872	14117312	15984488	12780848	124434014	[Bytes]
+D_Code2zz	14526504	14663616	16819384	13377040	183778902	[Bytes]
+ ********************** 
+		BC	ED	EG	Fi	Go
+Datos_Original	12273	16193	19449	15255	414375	[KiloBytes]
+Datos_Code1	12796	12934	14465	11643	88537	[KiloBytes]
+Datos_Code2	13238	13786	15609	12481	121517	[KiloBytes]
+D_Code2zz	14186	14319	16425	13063	179471	[KiloBytes]
+ ********************** 
+	Orig.	Code 1	Code 2	Code 2zz
+Mínima	0	-7856	-8625	-12554
+Máxima	8452	6108	8395	14173
+Media	1294.3	0.00590645	-0.00208049	-80.0932
+Total	10914394510	49807	-17544	-675397147
+NumMues	8432640	8432640	8432640	8432640
+Varian	345810.00	47911.00	94184.00	228814.00
+DesEst	588.06	218.89	306.89	478.35
+ ********************** 
+Creando histograma desde valor -12554 hasta valor 14173 ...
+Histograma creado con éxito.
+

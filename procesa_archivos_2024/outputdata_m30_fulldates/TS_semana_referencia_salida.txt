@@ -1,0 +1,56 @@
+carlos@carlos-VirtualBox:~/jupyter/procesa_archivos_2024/outputdata_m30_fulldates$ ./TS_semana_referencia m30_2024_data_fulldates_intensidad.txt m30_2024_ids_estructura_intensidad.txt 
+Iniciando lectura para codificación por semana
+Total Ids en grupos: 240
+Cantidad de sensores: 240
+Cantidad de muestras: 35136
+***************** Tamaño en memoria *****************
+Sensores codificados por semana del grupo: 
+	6[refs] + 15409 [series] = 15415 [KB]
+Sensores codificados por semana de cada sensor: 
+	302[refs] + 12258 [series] = 12560 [KB]
+Sensores codificados por semana del grupo (promedio de la segunda semana de cada sensor): 
+	6[refs] + 15363 [series] = 15369 [KB]
+Sensores codificados por 2a semana de cada sensor: 
+	299[refs] + 12463 [series] = 12762 [KB]
+carlos@carlos-VirtualBox:~/jupyter/procesa_archivos_2024/outputdata_m30_fulldates$ ./TS_semana_referencia m30_2024_data_fulldates_ocupacion.txt m30_2024_ids_estructura_ocupacion.txt 
+Iniciando lectura para codificación por semana
+Total Ids en grupos: 241
+Cantidad de sensores: 241
+Cantidad de muestras: 35136
+***************** Tamaño en memoria *****************
+Sensores codificados por semana del grupo: 
+	2[refs] + 4610 [series] = 4612 [KB]
+Sensores codificados por semana de cada sensor: 
+	98[refs] + 3690 [series] = 3788 [KB]
+Sensores codificados por semana del grupo (promedio de la segunda semana de cada sensor): 
+	2[refs] + 4614 [series] = 4616 [KB]
+Sensores codificados por 2a semana de cada sensor: 
+	100[refs] + 3817 [series] = 3917 [KB]
+carlos@carlos-VirtualBox:~/jupyter/procesa_archivos_2024/outputdata_m30_fulldates$ ./TS_semana_referencia m30_2024_data_fulldates_carga.txt m30_2024_ids_estructura_carga.txt 
+Iniciando lectura para codificación por semana
+Total Ids en grupos: 241
+Cantidad de sensores: 241
+Cantidad de muestras: 35136
+***************** Tamaño en memoria *****************
+Sensores codificados por semana del grupo: 
+	3[refs] + 7504 [series] = 7507 [KB]
+Sensores codificados por semana de cada sensor: 
+	167[refs] + 5592 [series] = 5759 [KB]
+Sensores codificados por semana del grupo (promedio de la segunda semana de cada sensor): 
+	3[refs] + 7495 [series] = 7498 [KB]
+Sensores codificados por 2a semana de cada sensor: 
+	166[refs] + 5806 [series] = 5972 [KB]
+carlos@carlos-VirtualBox:~/jupyter/procesa_archivos_2024/outputdata_m30_fulldates$ ./TS_semana_referencia m30_2024_data_fulldates_velocidad.txt m30_2024_ids_estructura_velocidad.txt 
+Iniciando lectura para codificación por semana
+Total Ids en grupos: 232
+Cantidad de sensores: 232
+Cantidad de muestras: 35136
+***************** Tamaño en memoria *****************
+Sensores codificados por semana del grupo: 
+	4[refs] + 7332 [series] = 7336 [KB]
+Sensores codificados por semana de cada sensor: 
+	198[refs] + 5058 [series] = 5256 [KB]
+Sensores codificados por semana del grupo (promedio de la segunda semana de cada sensor): 
+	4[refs] + 7332 [series] = 7336 [KB]
+Sensores codificados por 2a semana de cada sensor: 
+	197[refs] + 5336 [series] = 5533 [KB]

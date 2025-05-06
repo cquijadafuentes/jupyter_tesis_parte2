@@ -7,17 +7,15 @@
 using namespace std;
 using namespace sdsl;
 
-map<int,int> histoV0;
-map<int,int> histoV1;
-map<int,int> histoV2;
-map<int,int> histoV3;
-vector<int> minima(4, 0);
-vector<int> maxima(4, 0);
-vector<int> cantM(4,0);
-vector<float> promedio(4, 0);
-vector<float> varianza(4, 0);
-vector<float> desvstandar(4, 0);
-vector<long long int> acumulado(4, 0);
+vector<map<int,int>> histo(6);
+vector<int> minima(6, 0);
+vector<int> maxima(6, 0);
+vector<int> cantM(6, 0);
+vector<float> promedio(6, 0);
+vector<float> varianza(6, 0);
+vector<float> desvstandar(6, 0);
+vector<long long int> acumulado(6, 0);
+vector<long long int> acumDE(6,0);
 
 int golombM;
 int golombB;
@@ -281,6 +279,8 @@ int main(int argc, char const *argv[]){
 	vector<long long int> bytesV1(5, 0);		// code1	==>> bit_compress, elias_delta, elias_gamma, fibonacci, golomb
 	vector<long long int> bytesV2(5, 0);		// code2	==>> bit_compress, elias_delta, elias_gamma, fibonacci, golomb
 	vector<long long int> bytesV3(5, 0);		// code2zz	==>> bit_compress, elias_delta, elias_gamma, fibonacci, golomb
+	vector<long long int> bytesV4(5, 0);		// code3	==>> bit_compress, elias_delta, elias_gamma, fibonacci, golomb
+	vector<long long int> bytesV5(5, 0);		// code3c1	==>> bit_compress, elias_delta, elias_gamma, fibonacci, golomb
 	
 	for(int f=0; f<data.size(); f++){
 		//	Serie de referencia del grupo (la primera)
@@ -291,17 +291,22 @@ int main(int argc, char const *argv[]){
 		}
 		//	Referencia en code1 (se suma al tamaño de code2 y code2zz)
 		vector<int> refC1 = code_1(data[f][0]);
+		vector<int> refC5 = refC1;
 		tbytes = kilobytes_vectores_con_zze(refC1);
 		for(int i=0; i<4; i++){
 			bytesV1[i] += tbytes[i];
 			bytesV2[i] += tbytes[i];
 			bytesV3[i] += tbytes[i];
+			bytesV4[i] += tbytes[i];
+			bytesV5[i] += tbytes[i];
 		}
 		//	Histograma
-		agregaHisto(data[f][0], histoV0);
-		agregaHisto(refC1, histoV1);
-		agregaHisto(refC1, histoV2);
-		agregaHisto(refC1, histoV3);
+		agregaHisto(data[f][0], histo[0]);
+		agregaHisto(refC1, histo[1]);
+		agregaHisto(refC1, histo[2]);
+		agregaHisto(refC1, histo[3]);
+		agregaHisto(refC1, histo[4]);
+		agregaHisto(refC1, histo[5]);
 		for(int c=1; c<data[f].size(); c++){
 			//	Tamaño de la serie original
 			tbytes = kilobytes_vectores_sin_zze(data[f][c]);
@@ -326,11 +331,26 @@ int main(int argc, char const *argv[]){
 			for(int i=0; i<tbytes.size(); i++){
 				bytesV3[i] += tbytes[i];
 			}
+			//	Tamaño de la serie code 3 (ORn - ORn-1)
+			vector<int> c4 = code_2(data[f][c], data[f][c-1]);
+			tbytes = kilobytes_vectores_con_zze(c4);
+			for(int i=0; i<tbytes.size(); i++){
+				bytesV4[i] += tbytes[i];
+			}
+			//	Tamaño de la serie code 3c1 (C1(ORn) - C1(ORn-1))
+			vector<int> c5 = code_2(c1, refC5);
+			tbytes = kilobytes_vectores_con_zze(c5);
+			for(int i=0; i<tbytes.size(); i++){
+				bytesV5[i] += tbytes[i];
+			}
+			refC5 = c1;
 			//	Histograma
-			agregaHisto(data[f][c], histoV0);
-			agregaHisto(c1, histoV1);
-			agregaHisto(c2, histoV2);
-			agregaHisto(c3, histoV3);
+			agregaHisto(data[f][c], histo[0]);
+			agregaHisto(c1, histo[1]);
+			agregaHisto(c2, histo[2]);
+			agregaHisto(c3, histo[3]);
+			agregaHisto(c4, histo[4]);
+			agregaHisto(c5, histo[5]);
 		}
 	}
 	cout << " ********************** " << endl;
@@ -355,6 +375,16 @@ int main(int argc, char const *argv[]){
 		cout << "\t" << bytesV3[i];
 	}
 	cout << "\t[Bytes]" << endl;
+	cout << "D_Code3";
+	for(int i=0; i<bytesV4.size(); i++){
+		cout << "\t" << bytesV4[i];
+	}
+	cout << "\t[Bytes]" << endl;
+	cout << "D_Code3c1";
+	for(int i=0; i<bytesV5.size(); i++){
+		cout << "\t" << bytesV5[i];
+	}
+	cout << "\t[Bytes]" << endl;
 	cout << " ********************** " << endl;
 	cout << "\t\tBC\tED\tEG\tFi\tGo" << endl;
 	cout << "Datos_Original";
@@ -377,25 +407,38 @@ int main(int argc, char const *argv[]){
 		cout << "\t" << (bytesV3[i] / 1024);
 	}
 	cout << "\t[KiloBytes]" << endl;
+	cout << "D_Code3";
+	for(int i=0; i<bytesV4.size(); i++){
+		cout << "\t" << (bytesV4[i] / 1024);
+	}
+	cout << "\t[KiloBytes]" << endl;
+	cout << "D_Code3c1";
+	for(int i=0; i<bytesV5.size(); i++){
+		cout << "\t" << (bytesV5[i] / 1024);
+	}
+	cout << "\t[KiloBytes]" << endl;
 	cout << " ********************** " << endl;
 
 	estadisticas();
 
-	int min_01 = (minima[0] < minima[1]) ? minima[0] : minima[1];
-	int min_23 = (minima[2] < minima[3]) ? minima[2] : minima[3];
-	int minmin = (min_01 < min_23) ? min_01 : min_23;
-
-	int max_01 = (maxima[0] > maxima[1]) ? maxima[0] : maxima[1];
-	int max_23 = (maxima[2] > maxima[3]) ? maxima[2] : maxima[3];
-	int maxmax = (max_01 > max_23) ? max_01 : max_23;
-
-	ofstream histograma(argv[3]);
-	cout << "Creando histograma desde valor " << minmin << " hasta valor " << maxmax  << " ..." << endl;
-	histograma << "% valor\tNoC_0\tNoC_1\tNoC_2\tNoC_3" << endl;
-	for(int i=minmin; i<maxmax; i++){
-		histograma << i << "\t" << histoV0[i] << "\t" << histoV1[i] << "\t" << histoV2[i] << "\t" << histoV3[i] << endl;
+	int minmin = minima[0];
+	int maxmax = maxima[0];
+	for(int i=1; i<minima.size(); i++){
+		minmin = (minmin < minima[i]) ? minmin : minima[i];
+		maxmax = (maxmax > maxima[i]) ? maxmax : maxima[i];
 	}
-	histograma.close();
+
+	ofstream of_histograma(argv[3]);
+	cout << "Creando histograma desde valor " << minmin << " hasta valor " << maxmax  << " ..." << endl;
+	of_histograma << "% valor\tNoC_0\tNoC_1\tNoC_2\tNoC_2zz\tNoC_3\tNoC_3c1" << endl;
+	for(int i=minmin; i<maxmax; i++){
+		of_histograma << i;
+		for(int h=0; h<histo.size(); h++){
+			of_histograma << "\t" << histo[h][i];
+		}
+		of_histograma << endl;
+	}
+	of_histograma.close();
 	cout << "Histograma creado con éxito." << endl;
 	return 0;
 }
@@ -403,109 +446,43 @@ int main(int argc, char const *argv[]){
 void estadisticas(){
 	// ************** Minimo, maximo, acumulado y promedio **************
 	int aux;
-	// ------- V0 -------
-	minima[0] = (histoV0.begin())->first;
-	maxima[0] = histoV0.begin()->first;
-	for(auto it = histoV0.begin(); it != histoV0.end(); it++){
-		aux = int(it->first * it->second);
-		acumulado[0] += aux;
-		cantM[0] += it->second;
-		if(it->first < minima[0]){
-			minima[0] = it->first;
+	for(int h=0; h<histo.size(); h++){
+		// ------- Histograma -------
+		minima[h] = (histo[h].begin())->first;
+		maxima[h] = histo[h].begin()->first;
+		for(auto it = histo[h].begin(); it != histo[h].end(); it++){
+			aux = int(it->first * it->second);
+			acumulado[h] += aux;
+			cantM[h] += it->second;
+			if(it->first < minima[h]){
+				minima[h] = it->first;
+			}
+			if(it->first > maxima[h]){
+				maxima[h] = it->first;
+			}
 		}
-		if(it->first > maxima[0]){
-			maxima[0] = it->first;
+		promedio[h] = (0.0 + acumulado[h]) / cantM[h];
+		// ************** Varianza y Desviación Estándar **************
+		for(auto it = histo[h].begin(); it != histo[h].end(); it++){
+			aux = (it->first - promedio[h]);
+			acumDE[h] += aux * aux * it->second;
 		}
+		varianza[h] = acumDE[h] / cantM[h];
+		desvstandar[h] = sqrt(varianza[h]);
 	}
-	promedio[0] = (0.0 + acumulado[0]) / cantM[0];
-	// ------- V1 -------
-	minima[1] = (histoV1.begin())->first;
-	maxima[1] = histoV1.begin()->first;
-	for(auto it = histoV1.begin(); it != histoV1.end(); it++){
-		aux = (it->first * it->second);
-		acumulado[1] += aux;
-		cantM[1] += it->second;
-		if(it->first < minima[1]){
-			minima[1] = it->first;
-		}
-		if(it->first > maxima[1]){
-			maxima[1] = it->first;
-		}
-	}
-	promedio[1] = (0.0 + acumulado[1]) / cantM[1];
-	// ------- V2 -------
-	minima[2] = (histoV2.begin())->first;
-	maxima[2] = histoV2.begin()->first;
-	for(auto it = histoV2.begin(); it != histoV2.end(); it++){
-		aux = (it->first * it->second);
-		acumulado[2] += aux;
-		cantM[2] += it->second;
-		if(it->first < minima[2]){
-			minima[2] = it->first;
-		}
-		if(it->first > maxima[2]){
-			maxima[2] = it->first;
-		}
-	}
-	promedio[2] = (0.0 + acumulado[2]) / cantM[2];
-	// ------- V3 -------
-	minima[3] = (histoV3.begin())->first;
-	maxima[3] = histoV3.begin()->first;
-	for(auto it = histoV3.begin(); it != histoV3.end(); it++){
-		aux = (it->first * it->second);
-		acumulado[3] += aux;
-		cantM[3] += it->second;
-		if(it->first < minima[3]){
-			minima[3] = it->first;
-		}
-		if(it->first > maxima[3]){
-			maxima[3] = it->first;
-		}
-	}
-	promedio[3] = (0.0 + acumulado[3]) / cantM[3];
-	// ************** Varianza y Desviación Estándar **************
-	vector<long long int> acumDE(4,0);
-	// ------- V0 -------
-	for(auto it = histoV0.begin(); it != histoV0.end(); it++){
-		aux = (it->first - promedio[0]);
-		acumDE[0] += aux * aux * it->second;
-	}
-	varianza[0] = acumDE[0] / cantM[0];
-	desvstandar[0] = sqrt(varianza[0]);
-	// ------- V1 -------
-	for(auto it = histoV1.begin(); it != histoV1.end(); it++){
-		aux = (it->first - promedio[1]);
-		acumDE[1] += aux * aux * it->second;
-	}
-	varianza[1] = acumDE[1] / cantM[1];
-	desvstandar[1] = sqrt(varianza[1]);
-	// ------- V2 -------
-	for(auto it = histoV2.begin(); it != histoV2.end(); it++){
-		aux = (it->first - promedio[2]);
-		acumDE[2] += aux * aux * it->second;
-	}
-	varianza[2] = acumDE[2] / cantM[2];
-	desvstandar[2] = sqrt(varianza[2]);
-	// ------- V3 -------
-	for(auto it = histoV3.begin(); it != histoV3.end(); it++){
-		aux = (it->first - promedio[3]);
-		acumDE[3] += aux * aux * it->second;
-	}
-	varianza[3] = acumDE[3] / cantM[3];
-	desvstandar[3] = sqrt(varianza[3]);
 
 	// ************** Mostrando **************
 
-	cout << "\tOrig.\tCode 1\tCode 2\tCode 2zz" << endl;
-	cout << "Mínima\t" << minima[0] << "\t" << minima[1] << "\t" << minima[2] << "\t" << minima[3] << endl;
-	cout << "Máxima\t" << maxima[0] << "\t" << maxima[1] << "\t" << maxima[2] << "\t" << maxima[3] << endl;
-	cout << "Media\t" << promedio[0] << "\t" << promedio[1] << "\t" << promedio[2] << "\t" << promedio[3] << endl;
-	cout << "Total\t" << acumulado[0] << "\t" << acumulado[1] << "\t" << acumulado[2] << "\t" << acumulado[3] << endl;
-	cout << "NumMues\t" << cantM[0] << "\t" << cantM[1] << "\t" << cantM[2] << "\t" << cantM[3] << endl;
+	cout << "\tOrig.\tCode 1\tCode 2\tCode 2zz\tCode 3\tCode 3c1" << endl;
+	cout << "Mínima\t" << minima[0] << "\t" << minima[1] << "\t" << minima[2] << "\t" << minima[3] << "\t" << minima[4] << "\t" << minima[5] << endl;
+	cout << "Máxima\t" << maxima[0] << "\t" << maxima[1] << "\t" << maxima[2] << "\t" << maxima[3] << "\t" << maxima[4] << "\t" << maxima[5] << endl;
+	cout << "Media\t" << promedio[0] << "\t" << promedio[1] << "\t" << promedio[2] << "\t" << promedio[3] << "\t" << promedio[4] << "\t" << promedio[5] << endl;
+	cout << "Total\t" << acumulado[0] << "\t" << acumulado[1] << "\t" << acumulado[2] << "\t" << acumulado[3] << "\t" << acumulado[4] << "\t" << acumulado[5] << endl;
+	cout << "NumMues\t" << cantM[0] << "\t" << cantM[1] << "\t" << cantM[2] << "\t" << cantM[3] << "\t" << cantM[4] << "\t" << cantM[5] << endl;
 	cout << fixed;
     cout << setprecision(2);
-	cout << "Varian\t" << varianza[0] << "\t" << varianza[1] << "\t" << varianza[2] << "\t" << varianza[3] << endl;
-	cout << "DesEst\t" << desvstandar[0] << "\t" << desvstandar[1] << "\t" << desvstandar[2] << "\t" << desvstandar[3] << endl;
+	cout << "Varian\t" << varianza[0] << "\t" << varianza[1] << "\t" << varianza[2] << "\t" << varianza[3] << "\t" << varianza[4] << "\t" << varianza[5] << endl;
+	cout << "DesEst\t" << desvstandar[0] << "\t" << desvstandar[1] << "\t" << desvstandar[2] << "\t" << desvstandar[3] << "\t" << desvstandar[4] << "\t" << desvstandar[5] << endl;
 	cout << " ********************** " << endl;
 
 }
