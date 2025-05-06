@@ -1,0 +1,43 @@
+red = "#FF0000"; green = "#00FF00"; blue = "#0000FF"; skyblue = "#87CEEB"; black = "#000000";
+c1 = "#e66101"; c2 = "#fdb863"; c3 = "#b2abd2"; c4 = "#5e3c99"
+set grid ytics
+set grid xtics
+set key out horiz
+set terminal png size 800,400
+
+set output 'histo_intensidad.png'
+set title 'Histograma Intensidad'
+set ylabel "Frecuencia"
+set xlabel "Valores"
+plot 'histograma_doble_diferencia_intensidad.txt' using 1:2 title 'Original' with linespoints lt 2 pt 3 lc "red", \
+	'' using 1:3 title 'Code 1' with linespoints lt 2 pt 3 lc "green", \
+	'' using 1:4 title 'Code 2' with linespoints lt 2 pt 3 lc "blue", \
+	'' using 1:5 title 'Code 2zz' with linespoints lt 2 pt 3 lc "black"
+
+set output 'histo_ocupacion.png'
+set title 'Histograma Ocupación'
+set ylabel "Frecuencia"
+set xlabel "Valores"
+plot 'histograma_doble_diferencia_ocupacion.txt' using 1:2 title 'Original' with linespoints lt 2 pt 3 lc "red", \
+	'' using 1:3 title 'Code 1' with linespoints lt 2 pt 3 lc "green", \
+	'' using 1:4 title 'Code 2' with linespoints lt 2 pt 3 lc "blue", \
+	'' using 1:5 title 'Code 2zz' with linespoints lt 2 pt 3 lc "black"
+
+set output 'histo_carga.png'
+set title 'Histograma Carga'
+set ylabel "Frecuencia"
+set xlabel "Valores"
+plot 'histograma_doble_diferencia_carga.txt' using 1:2 title 'Original' with linespoints lt 2 pt 3 lc "red", \
+	'' using 1:3 title 'Code 1' with linespoints lt 2 pt 3 lc "green", \
+	'' using 1:4 title 'Code 2' with linespoints lt 2 pt 3 lc "blue", \
+	'' using 1:5 title 'Code 2zz' with linespoints lt 2 pt 3 lc "black"
+
+set output 'histo_velocidad.png'
+set title 'Histograma Velocidad'
+set ylabel "Frecuencia"
+set xlabel "Valores"
+plot 'histograma_doble_diferencia_velocidad.txt' using 1:2 title 'Original' with linespoints lt 2 pt 3 lc "red", \
+	'' using 1:3 title 'Code 1' with linespoints lt 2 pt 3 lc "green", \
+	'' using 1:4 title 'Code 2' with linespoints lt 2 pt 3 lc "blue", \
+	'' using 1:5 title 'Code 2zz' with linespoints lt 2 pt 3 lc "black"
+

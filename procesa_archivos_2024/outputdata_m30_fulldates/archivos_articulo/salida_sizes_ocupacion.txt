@@ -1,0 +1,33 @@
+Ejecutando: ./TS_explora_vlcvector_compara_series_doble_diferencia_todos m30_2024_data_fulldates_ocupacion.txt m30_2024_ids_estructura_ocupacion.txt histograma_doble_diferencia_ocupacion.txt
+Valores golomb: 
+M: 10
+B: 3
+Tope: 6
+Iniciando lectura para codificación por semana
+Total Ids en grupos: 241
+Cantidad de sensores: 241
+Cantidad de muestras: 35136
+ ********************** 
+		BC	ED	EG	Fi	Go
+Datos_Original	6862473	5598097	5115769	4966921	9165458	[Bytes]
+Datos_Code1	7393905	3523489	3092905	3594673	5065959	[Bytes]
+Datos_Code2	7718913	4284105	3835897	4107529	7475052	[Bytes]
+D_Code2zz	8689545	4707097	4374617	4440681	8485149	[Bytes]
+ ********************** 
+		BC	ED	EG	Fi	Go
+Datos_Original	6701	5466	4995	4850	8950	[KiloBytes]
+Datos_Code1	7220	3440	3020	3510	4947	[KiloBytes]
+Datos_Code2	7538	4183	3745	4011	7299	[KiloBytes]
+D_Code2zz	8485	4596	4272	4336	8286	[KiloBytes]
+ ********************** 
+	Orig.	Code 1	Code 2	Code 2zz
+Mínima	0	-99	-104	-141
+Máxima	100	94	114	196
+Media	5.60749	1.51161e-05	-8.26663e-07	-0.159861
+Total	47482967	128	-7	-1353671
+NumMues	8467776	8467776	8467776	8467776
+Varian	46.00	8.00	14.00	44.00
+DesEst	6.78	2.83	3.74	6.63
+ ********************** 
+Creando histograma desde valor -141 hasta valor 196 ...
+Histograma creado con éxito.
